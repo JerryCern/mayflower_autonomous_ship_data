@@ -1,0 +1,6756 @@
+[
+    {
+        "id": "723a850f03705f70",
+        "type": "tab",
+        "label": "MAS400",
+        "disabled": false,
+        "info": "Mayflower Autonomous Ship is a fully-autonomous, AI powered marine research vessel for gathering critical ocean data.  \n\nA most gracious compendium of publically-consumable information by Mr. James Sutton of IBM is available here: https://jpwsutton.github.io/mayflower_autonomous_ship_data/",
+        "env": []
+    },
+    {
+        "id": "f0f6caf54c075a94",
+        "type": "group",
+        "z": "723a850f03705f70",
+        "name": "Navigation",
+        "style": {
+            "stroke": "#ffC000",
+            "fill": "#ffff00",
+            "fill-opacity": "0.33",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "7318ec620ccf9c0f",
+            "f2e5df03442864f3",
+            "3dafb266bfc33096",
+            "0c7d9f8da552d721",
+            "cbecb927e996ad01",
+            "2880ccc846f2b19a",
+            "0ea04183ec9f7fd3",
+            "b454993e3f99f668",
+            "db733d76c650e213",
+            "1c28a4d47d92617b",
+            "89fb9bc3cb288691",
+            "b37220eecf4e0d07",
+            "b96cc28319a832c8",
+            "1727d5351040a8af",
+            "473860ab77e94487",
+            "f91234c1e07b5ee9",
+            "7a1c70a34c93403b",
+            "c3dd222cdd304a9f"
+        ],
+        "x": 494,
+        "y": 659,
+        "w": 522,
+        "h": 382
+    },
+    {
+        "id": "03810b4592173062",
+        "type": "group",
+        "z": "723a850f03705f70",
+        "name": "Multimedia",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#92d04f",
+            "fill-opacity": "0.5",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "eb1e330d050a2573",
+            "53fc7ea5637889bb",
+            "53fc7ea5637889bb",
+            "5f25aa61c6ab6848",
+            "12ba2380a006a4bf",
+            "5a2629061bfccb0f",
+            "836fc6f20df974d5",
+            "3bd823848cc8d5e7",
+            "a8d6183bf5def602",
+            "6d3e0c270e374ac0",
+            "e484348b5bfecf62",
+            "6ae3409587e5eb4e",
+            "5846da495b8549b7",
+            "ba1d15ae059c0c31",
+            "449e7f8e75426203",
+            "36f546f50ab444a7",
+            "ee132bd77b2a94a7",
+            "6f7e81b6279bfddd",
+            "39db2e8855b6b74a",
+            "67b8d6f883b73d69"
+        ],
+        "x": 14,
+        "y": 259,
+        "w": 562,
+        "h": 372,
+        "info": "**Audio-visual UI elements**  \n\nIt seemed proper to place these types of things in their own group."
+    },
+    {
+        "id": "693f162dbf677324",
+        "type": "group",
+        "z": "723a850f03705f70",
+        "name": "Automatic Identification System",
+        "style": {
+            "stroke": "#7f7f7f",
+            "fill": "#d1d1d1",
+            "label": true,
+            "color": "#000000",
+            "fill-opacity": "0.33"
+        },
+        "nodes": [
+            "40b2344c0e12db39",
+            "155deb4e62c063ee",
+            "2fdde64cb07f56a1",
+            "e9b3766e29a21d4b",
+            "b92f376d39b71077",
+            "969cd461c0cdf2a6",
+            "af97e83c723692a9",
+            "6a74725f88e29988",
+            "be088c61ac151896",
+            "aa359da50e8cee46",
+            "3c15b1124590609b",
+            "99694684ca63166e",
+            "50584460d47f6fd8",
+            "6a373ee33ea68fc4",
+            "937946ced567d673",
+            "3d24f0f24255a581",
+            "60c3bc3a769f090c",
+            "ee90af320510dac9",
+            "18d7fae9856cc12f",
+            "8fab293e53c9c709",
+            "fef4ead37857648c"
+        ],
+        "x": 24,
+        "y": 1159,
+        "w": 882,
+        "h": 322,
+        "info": "**Automatic Identification System (AIS)**\n\nA system of ship transceivers for vessel traffic services (VTS) including real-time global maritime vessel data and analytics characteristics suitable for an electronic chart display and information system (ECDIS)."
+    },
+    {
+        "id": "7a7552ad08f425dd",
+        "type": "group",
+        "z": "723a850f03705f70",
+        "name": "Log Recording ",
+        "style": {
+            "stroke": "#ff0000",
+            "label": true,
+            "color": "#000000",
+            "fill": "#ffbfbf",
+            "fill-opacity": "0.33"
+        },
+        "nodes": [
+            "1c1217998989117a",
+            "ed128e4ff9aeb793",
+            "570ed9bdfd1efa3a",
+            "31f21cb516637207",
+            "163aaaf6e910b0a5",
+            "db074d5ae07fe758",
+            "dc48630d741674ae",
+            "f30dd169e7f2c4f5",
+            "ad9b7901f88a37b9",
+            "14d5cffdedc533ac",
+            "3b94aaf22f2b42a9",
+            "367fc2cb2bc8f851",
+            "ce923d5eafa56ad4",
+            "3dc116664fcd8dfa"
+        ],
+        "x": 24,
+        "y": 1499,
+        "w": 832,
+        "h": 242,
+        "info": "**Log Recording**\n\nResponsible for archiving the pertinent MQTT data for later playback and review."
+    },
+    {
+        "id": "a1fbbb2c794ac7c2",
+        "type": "group",
+        "z": "723a850f03705f70",
+        "name": "Condition",
+        "style": {
+            "label": true,
+            "color": "#000000",
+            "fill": "#7f8faf",
+            "fill-opacity": "0.5"
+        },
+        "nodes": [
+            "8e1303931dec7873",
+            "eed36892c1cdd78b",
+            "2e95772f341b7f87",
+            "0a31c45f55ed6146",
+            "05268d12801d1dc8",
+            "8434f2d8ae505c54",
+            "d5a905f64427c43e",
+            "8423a005f1d484df",
+            "e2c9bf3d0aecedad",
+            "d95eb1cd34ece5a4",
+            "c2f91a5c9324c430",
+            "b96ed3ba1795e421",
+            "76f5e7df9d8d7f79"
+        ],
+        "x": 14,
+        "y": 659,
+        "w": 442,
+        "h": 322
+    },
+    {
+        "id": "b5598464a148aa0e",
+        "type": "group",
+        "z": "723a850f03705f70",
+        "name": "Meteorology",
+        "style": {
+            "label": true,
+            "color": "#000000",
+            "fill": "#0070c0",
+            "fill-opacity": "0.33"
+        },
+        "nodes": [
+            "1fc671b7018b4510",
+            "d56e737dac6a04aa",
+            "c38d898d15587254",
+            "036e63eec57e3816",
+            "491c6228c2642eb6",
+            "220209abd90ce904",
+            "6da2a2fe7ef67d1c",
+            "8a985bdc52d0e024",
+            "c16f7e099155e6f2",
+            "2def4bce8d2970bd",
+            "81385f5602613f28"
+        ],
+        "x": 614,
+        "y": 259,
+        "w": 462,
+        "h": 242
+    },
+    {
+        "id": "73e96092dd657934",
+        "type": "group",
+        "z": "723a850f03705f70",
+        "name": "Log Playback",
+        "style": {
+            "label": true,
+            "color": "#000000",
+            "fill": "#92d04f",
+            "fill-opacity": "0.34",
+            "stroke": "#92d04f"
+        },
+        "nodes": [
+            "ecd0e7532513094f",
+            "f5c354f0e9534f2d",
+            "cd0ea4f672659f4e",
+            "b4542e3ebcb2838b",
+            "9216ee322dbb8880",
+            "eb89cb9216b25a49",
+            "a1efcddab613b526",
+            "315eb59634829e2b",
+            "4cf50a94dc15150b",
+            "0a1f83d36684bb85",
+            "78070ea13b1222f0",
+            "7d98493b02e5e93f",
+            "989371046986fae3",
+            "6ceea8a57434c1c2",
+            "65f4623a630b5c3a",
+            "3a7b98234da93ad8",
+            "85894f9f69f06550",
+            "2675a6fad0472177",
+            "f807a5ab375f5472",
+            "d8a1bf5d6a32c691",
+            "efc2cf70f35c7183",
+            "fb9cc7df3d49177a",
+            "51eed9e924cdce87",
+            "7de3ed55f7339121"
+        ],
+        "x": 24,
+        "y": 1789,
+        "w": 542,
+        "h": 342,
+        "info": "**Log Playback**\n\nA node group designed to be exported / copied / pasted into other Node-RED installations on different computers to observe and analyze various MQTT log files."
+    },
+    {
+        "id": "76fcb5288eb1cd8a",
+        "type": "group",
+        "z": "723a850f03705f70",
+        "name": "RasPi CPU Telemetry",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "646a4ce2fa197521",
+            "94c1424c14bca0f6",
+            "bf4b32a1fbd2ec38",
+            "08384bed2cc43501",
+            "1dfed45f55d3d772",
+            "5f9a24e0468796be",
+            "10cfdd6bd56bca72"
+        ],
+        "x": 24,
+        "y": 2149,
+        "w": 922,
+        "h": 142,
+        "info": "**RasPi Telemetry**  \n\nNot actually a part of the MAS400 project, this code merely reports the condition of the Raspberry Pi being used for my MAS400 ECDIS."
+    },
+    {
+        "id": "13cba7e2abe41be3",
+        "type": "group",
+        "z": "723a850f03705f70",
+        "name": "MQTT Topics",
+        "style": {
+            "label": true,
+            "color": "#000000",
+            "fill": "#b797cf",
+            "fill-opacity": "0.33",
+            "stroke": "#6f2fa0"
+        },
+        "nodes": [
+            "ae9b10ca52f13bdd",
+            "1a21761f7a85df24",
+            "b5c6298851890342",
+            "457410faa30fbad6",
+            "26fdc831b08f82c4",
+            "63ed867f740aca8d",
+            "8b9a719230cb1251",
+            "cf0652d131e29887",
+            "550e42e551ee6bbe",
+            "d1bd330dc0814d3c",
+            "9187162fb968190d",
+            "2ec1d98f4072c7bb",
+            "2e53245d83e7559b",
+            "5b50437cb9a4ad8a",
+            "32ee6be0cc41ddfd",
+            "4bcf02faf7a54fe1",
+            "1392182e12b47913",
+            "89a7f7ab2717e15c",
+            "6a15d91f5d144c03",
+            "807c843f34b1a360",
+            "53d437214e83d301",
+            "6674a90713d046b4",
+            "9a0727c680e2cd0b"
+        ],
+        "x": 14,
+        "y": -1,
+        "w": 832,
+        "h": 242,
+        "info": "**Discrete topic subscriptions and processing links.**  \n\nThis might be \"going overboard\" on some programming level I'm not aware of, but the extended hierarchy better helps me track message sourcing and routing while I study Node-RED and MQTT."
+    },
+    {
+        "id": "bc7cc220.f4fad",
+        "type": "group",
+        "z": "723a850f03705f70",
+        "name": "etsMasPi1",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#92d04f",
+            "fill-opacity": "0.25",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "7497921e.79fa2c",
+            "e8016041.eca6c",
+            "599f478a.ba57f8",
+            "ca31bcf7.9556",
+            "22e61b63.6e6dd4",
+            "7980c723.34a8d8",
+            "ec342f6e.b988d",
+            "b4d54643.0ef488",
+            "8c0d0baa.4c90a8",
+            "cd9bb3ea.ba28e",
+            "7762c8e.b9f2338",
+            "3ac6ede1.1b68f2",
+            "3de2e218491cca39"
+        ],
+        "x": 1204,
+        "y": 39,
+        "w": 472,
+        "h": 352
+    },
+    {
+        "id": "d59bc94e3bf5ac98",
+        "type": "group",
+        "z": "723a850f03705f70",
+        "name": "etsMasPi2",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#92d04f",
+            "fill-opacity": "0.25",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "ee593aae1a3a8e92",
+            "ca00ee395f70e32b",
+            "7cc36f792be4cec5",
+            "43a178fad536aa62",
+            "ddadbaaaf28f0702",
+            "8f8ed2737ba0a977",
+            "e40dbbff9e247eaa",
+            "44ad0d1694b2320b",
+            "11e04ab5848925c1",
+            "9a597807131908e4",
+            "b48e7e9549e09cbd",
+            "42e1fc378068a668",
+            "12d1519b46dcf437"
+        ],
+        "x": 1204,
+        "y": 399,
+        "w": 472,
+        "h": 352
+    },
+    {
+        "id": "b308db3d72a1dec5",
+        "type": "group",
+        "z": "723a850f03705f70",
+        "name": "etsMasPi3",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#92d04f",
+            "fill-opacity": "0.25",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "32a40b99881dd96c",
+            "321872d735333d7b",
+            "f90aca2e9628c0f9",
+            "79078a6b4b496937",
+            "d1ec74e9b8a034c9",
+            "0d29d7aa1a0ffa0b",
+            "625e46bc64be7127",
+            "513542dc0e86934c",
+            "d8c1eee878bee35a",
+            "c1d2ec7df051254f",
+            "82b2ba739e30624e",
+            "3c3a07eaf15358eb",
+            "08525443ce5a87fc"
+        ],
+        "x": 1204,
+        "y": 759,
+        "w": 472,
+        "h": 352
+    },
+    {
+        "id": "47bb59d0217f042b",
+        "type": "group",
+        "z": "723a850f03705f70",
+        "name": "etsMasPi4",
+        "style": {
+            "stroke": "#92d04f",
+            "label": true,
+            "fill": "#92d04f",
+            "fill-opacity": "0.25",
+            "color": "#000000"
+        },
+        "nodes": [
+            "97f2b6682432315e",
+            "7af8a8f5572f3a18",
+            "bb11da1bb81e0e16",
+            "25d2edc972b16acd",
+            "4db0a2be4ad8e6f6",
+            "1e0ef90cd9c871b2",
+            "ed9439567d528ae9",
+            "4f01731ef6f06b05",
+            "52d156fe04c785c9",
+            "d5e634f71d21770a",
+            "821ac293bb4424b4",
+            "5ee626d4286deb5c",
+            "8531b0fefc308360"
+        ],
+        "x": 1204,
+        "y": 1119,
+        "w": 472,
+        "h": 352
+    },
+    {
+        "id": "12ba2380a006a4bf",
+        "type": "ui_template",
+        "z": "723a850f03705f70",
+        "g": "03810b4592173062",
+        "group": "1ae86b42.0ff1c5",
+        "name": "Embedded Map",
+        "order": 6,
+        "width": 10,
+        "height": 6,
+        "format": "<div ng-bind-html=\"msg.payload | trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 470,
+        "y": 430,
+        "wires": [
+            []
+        ],
+        "info": "Just one solution for getting a map embedded into the Node-RED dashboard."
+    },
+    {
+        "id": "5f25aa61c6ab6848",
+        "type": "template",
+        "z": "723a850f03705f70",
+        "g": "03810b4592173062",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<iframe src=\"../worldmap\" width=480px height=270px ></iframe>",
+        "x": 355,
+        "y": 430,
+        "wires": [
+            [
+                "12ba2380a006a4bf"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "5a2629061bfccb0f",
+        "type": "join",
+        "z": "723a850f03705f70",
+        "g": "03810b4592173062",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": true,
+        "timeout": "",
+        "count": "5",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 295,
+        "y": 490,
+        "wires": [
+            [
+                "836fc6f20df974d5",
+                "3bd823848cc8d5e7"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "7318ec620ccf9c0f",
+        "type": "ui_gauge",
+        "z": "723a850f03705f70",
+        "g": "f0f6caf54c075a94",
+        "name": "Heading",
+        "group": "2ad9686.f1b5d98",
+        "order": 5,
+        "width": 3,
+        "height": 3,
+        "gtype": "compass",
+        "title": "<font size=2>Heading</font>",
+        "label": "",
+        "format": "{{value|number:0}}°",
+        "min": 0,
+        "max": "359",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 780,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "0c7d9f8da552d721",
+        "type": "change",
+        "z": "723a850f03705f70",
+        "g": "f0f6caf54c075a94",
+        "name": "Hi-Lo",
+        "rules": [
+            {
+                "t": "set",
+                "p": "highlimit",
+                "pt": "msg",
+                "to": "20",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "lowlimit",
+                "pt": "msg",
+                "to": "-20",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "setpoint",
+                "pt": "msg",
+                "to": "-0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 735,
+        "y": 790,
+        "wires": [
+            [
+                "cbecb927e996ad01"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "8e1303931dec7873",
+        "type": "switch",
+        "z": "723a850f03705f70",
+        "g": "a1fbbb2c794ac7c2",
+        "name": "Ship Status",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "shipConnectivity",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "date",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "shipStatus",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "solarChargerPowerWatts",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "batteryVoltageTenths",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "batteryCapacityPct",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 6,
+        "x": 165,
+        "y": 820,
+        "wires": [
+            [
+                "2e95772f341b7f87",
+                "d95eb1cd34ece5a4"
+            ],
+            [
+                "c2f91a5c9324c430"
+            ],
+            [
+                "05268d12801d1dc8"
+            ],
+            [
+                "d5a905f64427c43e"
+            ],
+            [
+                "8434f2d8ae505c54"
+            ],
+            [
+                "e2c9bf3d0aecedad"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "eed36892c1cdd78b",
+        "type": "link in",
+        "z": "723a850f03705f70",
+        "g": "a1fbbb2c794ac7c2",
+        "name": "Status In",
+        "links": [
+            "63ed867f740aca8d"
+        ],
+        "x": 65,
+        "y": 820,
+        "wires": [
+            [
+                "b96ed3ba1795e421"
+            ]
+        ]
+    },
+    {
+        "id": "1fc671b7018b4510",
+        "type": "ui_text",
+        "z": "723a850f03705f70",
+        "g": "b5598464a148aa0e",
+        "group": "1ae86b42.0ff1c5",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "name": "Weather",
+        "label": "<font size=1>Weather: </font>",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 920,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "d56e737dac6a04aa",
+        "type": "ui_text",
+        "z": "723a850f03705f70",
+        "g": "b5598464a148aa0e",
+        "group": "1ae86b42.0ff1c5",
+        "order": 5,
+        "width": 5,
+        "height": 1,
+        "name": "Weather Phrase",
+        "label": "<font size=1>Weather Phrase: </font>",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 940,
+        "y": 330,
+        "wires": []
+    },
+    {
+        "id": "2e95772f341b7f87",
+        "type": "ui_led",
+        "z": "723a850f03705f70",
+        "g": "a1fbbb2c794ac7c2",
+        "order": 2,
+        "group": "be0e67b7.090858",
+        "width": 4,
+        "height": 2,
+        "label": "<font size=2>Connectivity</font>",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#00ff00",
+                "value": "Connected",
+                "valueType": "str"
+            },
+            {
+                "color": "#ff0000",
+                "value": "Disconnected",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Connectivity",
+        "x": 320,
+        "y": 730,
+        "wires": []
+    },
+    {
+        "id": "0a31c45f55ed6146",
+        "type": "ui_text",
+        "z": "723a850f03705f70",
+        "g": "a1fbbb2c794ac7c2",
+        "group": "be0e67b7.090858",
+        "order": 3,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "UTC: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 350,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "eb1e330d050a2573",
+        "type": "ui_template",
+        "z": "723a850f03705f70",
+        "g": "03810b4592173062",
+        "group": "1ae86b42.0ff1c5",
+        "name": "Camera Viewport",
+        "order": 3,
+        "width": 10,
+        "height": 5,
+        "format": "<iframe width=\"480\" height=\"270\" src=\"https://www.ustream.tv/embed/24088054\" scrolling=\"no\" allowfullscreen webkitallowfullscreen frameborder=\"0\" style=\"border: 0 none transparent;\"></iframe>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 310,
+        "y": 380,
+        "wires": [
+            []
+        ],
+        "info": "Just one solution for getting video embedded into the Node-RED dashboard."
+    },
+    {
+        "id": "40b2344c0e12db39",
+        "type": "switch",
+        "z": "723a850f03705f70",
+        "g": "693f162dbf677324",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "latitude",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "longitude",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "timeStamp",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 165,
+        "y": 1240,
+        "wires": [
+            [
+                "155deb4e62c063ee"
+            ],
+            [
+                "155deb4e62c063ee"
+            ],
+            [
+                "155deb4e62c063ee"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "155deb4e62c063ee",
+        "type": "join",
+        "z": "723a850f03705f70",
+        "g": "693f162dbf677324",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "",
+        "propertyType": "full",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "3",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 225,
+        "y": 1240,
+        "wires": [
+            [
+                "e9b3766e29a21d4b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "39db2e8855b6b74a",
+        "type": "ui_template",
+        "z": "723a850f03705f70",
+        "g": "03810b4592173062",
+        "group": "1ae86b42.0ff1c5",
+        "name": "Custom Dashboard CSS",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\nroot, a, button, p, div {-webkit-user-select: none !important;}\nbody {\n    //background: -webkit-linear-gradient(\n    //130deg,\n    //#004545 0%,\n    //#125aa5 50%,\n    //#b800e9 100%\n    //);\n    //-webkit-touch-callout: none !important;\n    //background-image: url(\"/MAS400-6006.jpg\");\n    //background-repeat: no-repeat;\n    //background-position: right top;\n    //background-size: cover;\n}\n\nbody.nr-dashboard-theme md-toolbar,\nbody.nr-dashboard-theme md-content md-card {background-color: transparent !important; color: #FFFFFF;}\nui-card-panel {background-color: rgba(32,32,32,0.66) !important;border-radius: 10px !important;}\n.md-card.md-default-theme, md-card {border-radius: 5px;}\n.nr-dashboard-switch.ng-scope {background-color: rgba(255,255,255,.2) !important;}\n.nr-dashboard-switch.ng-scope:hover {background-color: rgba(255,255,255,.5) !important;}\n.nr-dashboard-theme .nr-dashboard-button .md-button {background-color: rgba(255,255,255,.2);}\n.md-button {border-radius: 10px;}\n.nr-dashboard-cardpanel layout-column \n    {\n    background-color: rgba(255,255,255,0.2) !important;\n    background-color: transparent !important;\n    border-radius: 10px !important;\n    }\n.nr-dashboard-theme ui-card-panel {border: none;}\n.nr-dashboard-template {overflow-y: visible;}\n.nr-dashboard-theme md-content md-card {background-color: transparent !important;}\n.nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle {color: rgba(255, 255, 255, 0.5);}\n</style>\n\n<script>\ndocument.ontouchmove = function (e) {e.preventDefault();}\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "global",
+        "className": "",
+        "x": 150,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "05268d12801d1dc8",
+        "type": "ui_multistate_switch",
+        "z": "723a850f03705f70",
+        "g": "a1fbbb2c794ac7c2",
+        "name": "Operational Status",
+        "group": "be0e67b7.090858",
+        "order": 8,
+        "width": 10,
+        "height": 1,
+        "label": "",
+        "stateField": "payload",
+        "enableField": "enable",
+        "passthroughField": "passthrough",
+        "inputMsgField": "inputmsg",
+        "rounded": true,
+        "useThemeColors": false,
+        "hideSelectedLabel": false,
+        "multilineLabel": false,
+        "passThrough": "never",
+        "inputMsg": "all",
+        "userInput": "enabled_show",
+        "options": [
+            {
+                "label": "<font size=2>Autonomous</font>",
+                "value": "Autonomous",
+                "valueType": "str",
+                "color": "#64ff61"
+            },
+            {
+                "label": "<font size=2>Standby</font>",
+                "value": "Standby",
+                "valueType": "str",
+                "color": "#004f99"
+            },
+            {
+                "label": "<font size=2>Active</font>",
+                "value": "Active",
+                "valueType": "str",
+                "color": "#cccc00"
+            },
+            {
+                "label": "<font size=2>Startup</font>",
+                "value": "Start up in progress",
+                "valueType": "str",
+                "color": "#ff33cc"
+            },
+            {
+                "label": "<font size=2>Remote</font>",
+                "value": "Remote Control",
+                "valueType": "str",
+                "color": "#cc6600"
+            }
+        ],
+        "topic": "",
+        "x": 340,
+        "y": 790,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "53fc7ea5637889bb",
+        "type": "ui_multistate_switch",
+        "z": "723a850f03705f70",
+        "g": "03810b4592173062",
+        "name": "Camera Select",
+        "group": "1ae86b42.0ff1c5",
+        "order": 2,
+        "width": 10,
+        "height": 1,
+        "label": "",
+        "stateField": "template",
+        "enableField": "enable",
+        "passthroughField": "passthrough",
+        "inputMsgField": "inputmsg",
+        "rounded": true,
+        "useThemeColors": true,
+        "hideSelectedLabel": false,
+        "multilineLabel": false,
+        "passThrough": "never",
+        "inputMsg": "all",
+        "userInput": "enabled_show",
+        "options": [
+            {
+                "label": "<font size=2>PTZ</font>",
+                "value": "<iframe width=\"480\" height=\"270\" src=\"https://www.ustream.tv/embed/24088054\" scrolling=\"no\" allowfullscreen webkitallowfullscreen frameborder=\"0\" style=\"border: 0 none transparent;\"></iframe>",
+                "valueType": "str",
+                "color": "#009933"
+            },
+            {
+                "label": "<font size=2>Stern</font>",
+                "value": "<iframe width=\"480\" height=\"270\" src=\"https://www.ustream.tv/embed/24088055\" scrolling=\"no\" allowfullscreen webkitallowfullscreen frameborder=\"0\" style=\"border: 0 none transparent;\"></iframe>",
+                "valueType": "str",
+                "color": "#999999"
+            },
+            {
+                "label": "<font size=2>Multiview</font>",
+                "value": "<iframe width=\"480\" height=\"270\" src=\"https://www.ustream.tv/embed/24088056\" scrolling=\"no\" allowfullscreen webkitallowfullscreen frameborder=\"0\" style=\"border: 0 none transparent;\"></iframe>",
+                "valueType": "str",
+                "color": "#ff6666"
+            },
+            {
+                "label": "<font size=2>Starboard</font>",
+                "value": "<iframe width=\"480\" height=\"270\" src=\"https://www.ustream.tv/embed/24088057\" scrolling=\"no\" allowfullscreen webkitallowfullscreen frameborder=\"0\" style=\"border: 0 none transparent;\"></iframe>",
+                "valueType": "str",
+                "color": "#009999"
+            },
+            {
+                "label": "<font size=2>unk</font>",
+                "value": "<iframe width=\"480\" height=\"270\" src=\"https://www.ustream.tv/embed/24088058\" scrolling=\"no\" allowfullscreen webkitallowfullscreen frameborder=\"0\" style=\"border: 0 none transparent;\"></iframe>",
+                "valueType": "str",
+                "color": "#cccc00"
+            }
+        ],
+        "topic": "",
+        "x": 120,
+        "y": 380,
+        "wires": [
+            [
+                "eb1e330d050a2573"
+            ]
+        ]
+    },
+    {
+        "id": "2880ccc846f2b19a",
+        "type": "calculator",
+        "z": "723a850f03705f70",
+        "g": "f0f6caf54c075a94",
+        "name": "Rudder Divisor",
+        "inputMsgField": "payload",
+        "outputMsgField": "payload",
+        "operation": "div",
+        "constant": "-28.6",
+        "round": true,
+        "decimals": "1",
+        "x": 735,
+        "y": 820,
+        "wires": [
+            [
+                "3dafb266bfc33096"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "0ea04183ec9f7fd3",
+        "type": "calculator",
+        "z": "723a850f03705f70",
+        "g": "f0f6caf54c075a94",
+        "name": "Rudder Divisor",
+        "inputMsgField": "payload",
+        "outputMsgField": "payload",
+        "operation": "div",
+        "constant": "10",
+        "round": true,
+        "decimals": "1",
+        "x": 735,
+        "y": 760,
+        "wires": [
+            [
+                "1727d5351040a8af"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "b454993e3f99f668",
+        "type": "calculator",
+        "z": "723a850f03705f70",
+        "g": "f0f6caf54c075a94",
+        "name": "m to fathoms",
+        "inputMsgField": "payload",
+        "outputMsgField": "payload",
+        "operation": "mult",
+        "constant": "0.54680665",
+        "round": true,
+        "decimals": 0,
+        "x": 675,
+        "y": 950,
+        "wires": [
+            [
+                "89fb9bc3cb288691",
+                "b37220eecf4e0d07",
+                "b96cc28319a832c8"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "db733d76c650e213",
+        "type": "calculator",
+        "z": "723a850f03705f70",
+        "g": "f0f6caf54c075a94",
+        "name": "kph conv",
+        "inputMsgField": "payload",
+        "outputMsgField": "payload",
+        "operation": "mult",
+        "constant": "1.9438444924406",
+        "round": false,
+        "decimals": "0",
+        "x": 735,
+        "y": 730,
+        "wires": [
+            [
+                "1c28a4d47d92617b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "8434f2d8ae505c54",
+        "type": "calculator",
+        "z": "723a850f03705f70",
+        "g": "a1fbbb2c794ac7c2",
+        "name": "",
+        "inputMsgField": "payload",
+        "outputMsgField": "payload",
+        "operation": "div",
+        "constant": "10",
+        "round": true,
+        "decimals": 0,
+        "x": 265,
+        "y": 890,
+        "wires": [
+            [
+                "8423a005f1d484df"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "cbecb927e996ad01",
+        "type": "ui_lineargauge",
+        "z": "723a850f03705f70",
+        "g": "f0f6caf54c075a94",
+        "group": "2ad9686.f1b5d98",
+        "order": 3,
+        "width": 1,
+        "height": 4,
+        "name": "<font size=2>Pitch</font>",
+        "colorLowArea": "#808080",
+        "colorMidArea": "#80c0ff",
+        "colorHighArea": "#808080",
+        "unit": "°",
+        "x": 880,
+        "y": 810,
+        "wires": []
+    },
+    {
+        "id": "f2e5df03442864f3",
+        "type": "ui_artlessgauge",
+        "z": "723a850f03705f70",
+        "g": "f0f6caf54c075a94",
+        "group": "2ad9686.f1b5d98",
+        "order": 7,
+        "width": 3,
+        "height": 3,
+        "name": "Roll",
+        "icon": "",
+        "label": "Roll",
+        "unit": "°",
+        "layout": "radial",
+        "decimals": 0,
+        "differential": true,
+        "minmax": true,
+        "colorTrack": "#555555",
+        "style": "2,1",
+        "colorFromTheme": true,
+        "property": "payload",
+        "secondary": "secondary",
+        "inline": true,
+        "animate": true,
+        "sectors": [
+            {
+                "val": -60,
+                "col": "#ff8080",
+                "t": "min",
+                "dot": 0
+            },
+            {
+                "val": 0,
+                "col": "#80ff80",
+                "t": "sec",
+                "dot": 0
+            },
+            {
+                "val": 60,
+                "col": "#80ff80",
+                "t": "max",
+                "dot": 0
+            }
+        ],
+        "lineWidth": "7",
+        "bgcolorFromTheme": true,
+        "diffCenter": "0",
+        "x": 820,
+        "y": 870,
+        "wires": []
+    },
+    {
+        "id": "3dafb266bfc33096",
+        "type": "ui_artlessgauge",
+        "z": "723a850f03705f70",
+        "g": "f0f6caf54c075a94",
+        "group": "2ad9686.f1b5d98",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "name": "Yaw",
+        "icon": "",
+        "label": "Yaw",
+        "unit": "°",
+        "layout": "linear",
+        "decimals": "1",
+        "differential": true,
+        "minmax": true,
+        "colorTrack": "#555555",
+        "style": "4,2",
+        "colorFromTheme": true,
+        "property": "payload",
+        "secondary": "secondary",
+        "inline": true,
+        "animate": true,
+        "sectors": [
+            {
+                "val": -50,
+                "col": "#ff8080",
+                "t": "min",
+                "dot": 0
+            },
+            {
+                "val": 0,
+                "col": "#80ff95",
+                "t": "sec",
+                "dot": 0
+            },
+            {
+                "val": 50,
+                "col": "#80ff95",
+                "t": "max",
+                "dot": 0
+            }
+        ],
+        "lineWidth": "7",
+        "bgcolorFromTheme": true,
+        "diffCenter": "0",
+        "x": 820,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "3bd823848cc8d5e7",
+        "type": "worldmap",
+        "z": "723a850f03705f70",
+        "g": "03810b4592173062",
+        "name": "",
+        "lat": "",
+        "lon": "",
+        "zoom": "",
+        "layer": "OSMC",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "show",
+        "layers": "show",
+        "panit": "true",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "false",
+        "coords": "dms",
+        "showgrid": "true",
+        "allowFileDrop": "false",
+        "path": "/worldmap",
+        "overlist": "DR,CO,RA,DN,HM",
+        "maplist": "OSMG,OSMC,EsriC,EsriS,EsriT,EsriO,EsriDG,NatGeo,UKOS,OpTop,SW",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 440,
+        "y": 490,
+        "wires": []
+    },
+    {
+        "id": "836fc6f20df974d5",
+        "type": "worldmap-tracks",
+        "z": "723a850f03705f70",
+        "g": "03810b4592173062",
+        "name": "",
+        "depth": "1000",
+        "layer": "combined",
+        "smooth": false,
+        "x": 345,
+        "y": 510,
+        "wires": [
+            [
+                "3bd823848cc8d5e7"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "2fdde64cb07f56a1",
+        "type": "link in",
+        "z": "723a850f03705f70",
+        "g": "693f162dbf677324",
+        "name": "ais In",
+        "links": [
+            "8b9a719230cb1251"
+        ],
+        "x": 65,
+        "y": 1240,
+        "wires": [
+            [
+                "8fab293e53c9c709"
+            ]
+        ]
+    },
+    {
+        "id": "c38d898d15587254",
+        "type": "unit-converter",
+        "z": "723a850f03705f70",
+        "g": "b5598464a148aa0e",
+        "category": "temperature",
+        "inputUnit": "C",
+        "outputUnit": "F",
+        "inputField": "payload",
+        "outputField": "payload",
+        "inputFieldType": "msg",
+        "outputFieldType": "msg",
+        "roundOutputField": true,
+        "outputFieldDecimals": "0",
+        "name": "",
+        "x": 875,
+        "y": 360,
+        "wires": [
+            [
+                "c16f7e099155e6f2"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "036e63eec57e3816",
+        "type": "switch",
+        "z": "723a850f03705f70",
+        "g": "b5598464a148aa0e",
+        "name": "Ship Status",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "weather",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "weatherPhrase",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "temperatureDegC",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "windSpeedKmH",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "windDirectionDeg",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 5,
+        "x": 795,
+        "y": 370,
+        "wires": [
+            [
+                "1fc671b7018b4510"
+            ],
+            [
+                "d56e737dac6a04aa"
+            ],
+            [
+                "c38d898d15587254"
+            ],
+            [
+                "6da2a2fe7ef67d1c"
+            ],
+            [
+                "220209abd90ce904"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "491c6228c2642eb6",
+        "type": "link in",
+        "z": "723a850f03705f70",
+        "g": "b5598464a148aa0e",
+        "name": "Status In",
+        "links": [
+            "63ed867f740aca8d"
+        ],
+        "x": 695,
+        "y": 370,
+        "wires": [
+            [
+                "2def4bce8d2970bd"
+            ]
+        ]
+    },
+    {
+        "id": "220209abd90ce904",
+        "type": "ui_gauge",
+        "z": "723a850f03705f70",
+        "g": "b5598464a148aa0e",
+        "name": "Wind Dir",
+        "group": "be0e67b7.090858",
+        "order": 7,
+        "width": 2,
+        "height": 3,
+        "gtype": "compass",
+        "title": "<font size=2>Wind</font>",
+        "label": "",
+        "format": "{{value}}°",
+        "min": 0,
+        "max": "359",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 970,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "6da2a2fe7ef67d1c",
+        "type": "calculator",
+        "z": "723a850f03705f70",
+        "g": "b5598464a148aa0e",
+        "name": "Knots",
+        "inputMsgField": "payload",
+        "outputMsgField": "payload",
+        "operation": "div",
+        "constant": "1.852",
+        "round": true,
+        "decimals": "1",
+        "x": 875,
+        "y": 390,
+        "wires": [
+            [
+                "8a985bdc52d0e024"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d5a905f64427c43e",
+        "type": "ui_level",
+        "z": "723a850f03705f70",
+        "g": "a1fbbb2c794ac7c2",
+        "group": "be0e67b7.090858",
+        "order": 9,
+        "width": 4,
+        "height": 1,
+        "name": "Solar Power",
+        "label": "Solar",
+        "colorHi": "#00c0ff",
+        "colorWarn": "#00c0ff",
+        "colorNormal": "#00c0ff",
+        "colorOff": "#303030",
+        "min": 0,
+        "max": "2250",
+        "segWarn": "",
+        "segHigh": "",
+        "unit": "W",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": 0,
+        "animations": "soft",
+        "shape": "2",
+        "colorschema": "fixed",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "off",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 320,
+        "y": 840,
+        "wires": [],
+        "info": "Solar power gauge limit taken from a mechanical drawing \"Uncharted - EP.01\", annotated \"SOLAR PANELS MONOCRYSTALLINE SEMI-FLEXIBLE TOTAL 2.25 KW\".\n\nHighest observed power = 1050W, 04-2022, GB vicinity."
+    },
+    {
+        "id": "8423a005f1d484df",
+        "type": "ui_level",
+        "z": "723a850f03705f70",
+        "g": "a1fbbb2c794ac7c2",
+        "group": "be0e67b7.090858",
+        "order": 10,
+        "width": 3,
+        "height": 1,
+        "name": "Voltage",
+        "label": "Voltage",
+        "colorHi": "#00ff2a",
+        "colorWarn": "#ffc000",
+        "colorNormal": "#ff0000",
+        "colorOff": "#303030",
+        "min": 0,
+        "max": "60",
+        "segWarn": "35",
+        "segHigh": "45",
+        "unit": "V",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": 0,
+        "animations": "soft",
+        "shape": "2",
+        "colorschema": "valuedriven",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "off",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 370,
+        "y": 890,
+        "wires": []
+    },
+    {
+        "id": "e2c9bf3d0aecedad",
+        "type": "ui_level",
+        "z": "723a850f03705f70",
+        "g": "a1fbbb2c794ac7c2",
+        "group": "be0e67b7.090858",
+        "order": 11,
+        "width": 3,
+        "height": 1,
+        "name": "Charge",
+        "label": "Charge",
+        "colorHi": "#00ff2a",
+        "colorWarn": "#ffc000",
+        "colorNormal": "#ff0000",
+        "colorOff": "#303030",
+        "min": 0,
+        "max": "100",
+        "segWarn": "33",
+        "segHigh": "66",
+        "unit": "%",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": 0,
+        "animations": "soft",
+        "shape": "2",
+        "colorschema": "valuedriven",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "off",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 310,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "8a985bdc52d0e024",
+        "type": "ui_level",
+        "z": "723a850f03705f70",
+        "g": "b5598464a148aa0e",
+        "group": "be0e67b7.090858",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "name": "Wind Speed",
+        "label": "",
+        "colorHi": "#ffffff",
+        "colorWarn": "#ffffff",
+        "colorNormal": "#ffffff",
+        "colorOff": "#303030",
+        "min": 0,
+        "max": "50",
+        "segWarn": "",
+        "segHigh": "",
+        "unit": "Kts",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": 0,
+        "animations": "soft",
+        "shape": "2",
+        "colorschema": "fixed",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "off",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 980,
+        "y": 410,
+        "wires": []
+    },
+    {
+        "id": "c16f7e099155e6f2",
+        "type": "ui_level",
+        "z": "723a850f03705f70",
+        "g": "b5598464a148aa0e",
+        "group": "be0e67b7.090858",
+        "order": 6,
+        "width": 1,
+        "height": 3,
+        "name": "Temp",
+        "label": "°F",
+        "colorHi": "#e60000",
+        "colorWarn": "#04ff00",
+        "colorNormal": "#006eb3",
+        "colorOff": "#303030",
+        "min": 0,
+        "max": 100,
+        "segWarn": "32",
+        "segHigh": "85",
+        "unit": "",
+        "layout": "sv",
+        "channelA": "",
+        "channelB": "",
+        "decimals": 0,
+        "animations": "soft",
+        "shape": 2,
+        "colorschema": "rainbow",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "off",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 960,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "1c28a4d47d92617b",
+        "type": "ui_level",
+        "z": "723a850f03705f70",
+        "g": "f0f6caf54c075a94",
+        "group": "2ad9686.f1b5d98",
+        "order": 1,
+        "width": 4,
+        "height": 1,
+        "name": "Ship SOG",
+        "label": "",
+        "colorHi": "#0080c0",
+        "colorWarn": "#0080c0",
+        "colorNormal": "#0080c0",
+        "colorOff": "#303030",
+        "min": 0,
+        "max": "20",
+        "segWarn": "",
+        "segHigh": "",
+        "unit": "Kts",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": 0,
+        "animations": "soft",
+        "shape": "2",
+        "colorschema": "fixed",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "off",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 830,
+        "y": 730,
+        "wires": []
+    },
+    {
+        "id": "89fb9bc3cb288691",
+        "type": "ui_level",
+        "z": "723a850f03705f70",
+        "g": "f0f6caf54c075a94",
+        "group": "2ad9686.f1b5d98",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "name": "Depth",
+        "label": "",
+        "colorHi": "#e60000",
+        "colorWarn": "#ff9900",
+        "colorNormal": "#00b33c",
+        "colorOff": "#202020",
+        "min": "50",
+        "max": "0",
+        "segWarn": "30",
+        "segHigh": "15",
+        "unit": "Fathoms",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": 0,
+        "animations": "soft",
+        "shape": "2",
+        "colorschema": "rainbow",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "off",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 820,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "b37220eecf4e0d07",
+        "type": "ui_level",
+        "z": "723a850f03705f70",
+        "g": "f0f6caf54c075a94",
+        "group": "2ad9686.f1b5d98",
+        "order": 9,
+        "width": 5,
+        "height": 1,
+        "name": "Depth 5m",
+        "label": "",
+        "colorHi": "#00ff00",
+        "colorWarn": "#00c0c0",
+        "colorNormal": "#0000ff",
+        "colorOff": "#202020",
+        "min": "500",
+        "max": "50",
+        "segWarn": "300",
+        "segHigh": "150",
+        "unit": "Fathoms",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": 0,
+        "animations": "soft",
+        "shape": "2",
+        "colorschema": "fixed",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "segments",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 830,
+        "y": 950,
+        "wires": []
+    },
+    {
+        "id": "b96cc28319a832c8",
+        "type": "ui_level",
+        "z": "723a850f03705f70",
+        "g": "f0f6caf54c075a94",
+        "group": "2ad9686.f1b5d98",
+        "order": 13,
+        "width": 5,
+        "height": 1,
+        "name": "Depth 5k",
+        "label": "",
+        "colorHi": "#0000ff",
+        "colorWarn": "#c000c0",
+        "colorNormal": "#600060",
+        "colorOff": "#303030",
+        "min": "5000",
+        "max": "500",
+        "segWarn": "3000",
+        "segHigh": "1500",
+        "unit": "Fathoms",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": 0,
+        "animations": "soft",
+        "shape": "2",
+        "colorschema": "fixed",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "segments",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 830,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "af97e83c723692a9",
+        "type": "switch",
+        "z": "723a850f03705f70",
+        "g": "693f162dbf677324",
+        "name": "Ship Status",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "time",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "object_name",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "object_id",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "prob",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "cam_id",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 5,
+        "x": 165,
+        "y": 1310,
+        "wires": [
+            [
+                "6a74725f88e29988"
+            ],
+            [
+                "6a74725f88e29988"
+            ],
+            [
+                "6a74725f88e29988"
+            ],
+            [
+                "6a74725f88e29988"
+            ],
+            [
+                "6a74725f88e29988",
+                "99694684ca63166e"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "969cd461c0cdf2a6",
+        "type": "link in",
+        "z": "723a850f03705f70",
+        "g": "693f162dbf677324",
+        "name": "Hazard In",
+        "links": [
+            "d1bd330dc0814d3c"
+        ],
+        "x": 65,
+        "y": 1310,
+        "wires": [
+            [
+                "fef4ead37857648c"
+            ]
+        ]
+    },
+    {
+        "id": "b92f376d39b71077",
+        "type": "comment",
+        "z": "723a850f03705f70",
+        "g": "693f162dbf677324",
+        "name": "Object Recognition and Hazard Identification",
+        "info": "### Hazard Identification System\n\nThe 6 hazard cameras:\n1. Hard Port\n2. Hard Starboard\n3. Port Astern\n4. Starboard Astern\n5. Starboard Bow\n6. Port Bow\n\n**The /annotation sub-topic:**\nBreaking down the full URL of an evaluated IBM Automatic Identification System picture with information about visual target type. The preamble of each address MUST BE:\n\n`https://mas-science-data-publicimages-mission1-jun21.s3.eu-gb.cloud-object-storage.appdomain.cloud/`\n\nThe address yields an XML history from which other images are accessed. The specific drill-down JSON topic is:\n\n`payload.ListBucketResult.Contents[arraynumber].Key[0]:`\n\nwhich yields a filename akin to:\n\n`hds-run_y2021m06d15_h12m07s20_cam_2_frame_05852.png`\n\nThus a random example of a complete image URL is:\n\nhttps://mas-science-data-publicimages-mission1-jun21.s3.eu-gb.cloud-object-storage.appdomain.cloud/hds-run_y2021m06d15_h12m07s20_cam_2_frame_05852.png",
+        "x": 220,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "6a74725f88e29988",
+        "type": "join",
+        "z": "723a850f03705f70",
+        "g": "693f162dbf677324",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "",
+        "propertyType": "full",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "5",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 225,
+        "y": 1300,
+        "wires": [
+            [
+                "be088c61ac151896"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "be088c61ac151896",
+        "type": "ui_table",
+        "z": "723a850f03705f70",
+        "g": "693f162dbf677324",
+        "group": "de058a5b.7c6868",
+        "name": "Replay/Hazard",
+        "order": 1,
+        "width": 7,
+        "height": 4,
+        "columns": [
+            {
+                "field": "topic",
+                "title": "Topic",
+                "width": "33%",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "payload",
+                "title": "Payload",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 340,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "1727d5351040a8af",
+        "type": "ui_level",
+        "z": "723a850f03705f70",
+        "g": "f0f6caf54c075a94",
+        "group": "2ad9686.f1b5d98",
+        "order": 6,
+        "width": 1,
+        "height": 4,
+        "name": "Throttle",
+        "label": "Throttle",
+        "colorHi": "#0080c0",
+        "colorWarn": "#ffffff",
+        "colorNormal": "#ffffff",
+        "colorOff": "#303030",
+        "min": 0,
+        "max": "100",
+        "segWarn": "",
+        "segHigh": "",
+        "unit": "%",
+        "layout": "sv",
+        "channelA": "",
+        "channelB": "",
+        "decimals": 0,
+        "animations": "soft",
+        "shape": "2",
+        "colorschema": "fixed",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "off",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 830,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "e9b3766e29a21d4b",
+        "type": "ui_table",
+        "z": "723a850f03705f70",
+        "g": "693f162dbf677324",
+        "group": "de058a5b.7c6868",
+        "name": "AIS",
+        "order": 2,
+        "width": 6,
+        "height": 4,
+        "columns": [
+            {
+                "field": "topic",
+                "title": "Topic",
+                "width": "33%",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "payload",
+                "title": "Payload",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 310,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "1c1217998989117a",
+        "type": "mqtt in",
+        "z": "723a850f03705f70",
+        "g": "7a7552ad08f425dd",
+        "name": "",
+        "topic": "status/#",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "aaeb5aa1.5944c8",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 100,
+        "y": 1540,
+        "wires": [
+            [
+                "14d5cffdedc533ac"
+            ]
+        ]
+    },
+    {
+        "id": "31f21cb516637207",
+        "type": "debug",
+        "z": "723a850f03705f70",
+        "g": "7a7552ad08f425dd",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 365,
+        "y": 1700,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "db074d5ae07fe758",
+        "type": "file",
+        "z": "723a850f03705f70",
+        "g": "7a7552ad08f425dd",
+        "name": "",
+        "filename": "/home/pi/MAS400_log_2022.json",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 610,
+        "y": 1540,
+        "wires": [
+            [
+                "dc48630d741674ae"
+            ]
+        ]
+    },
+    {
+        "id": "dc48630d741674ae",
+        "type": "debug",
+        "z": "723a850f03705f70",
+        "g": "7a7552ad08f425dd",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 795,
+        "y": 1540,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "570ed9bdfd1efa3a",
+        "type": "join",
+        "z": "723a850f03705f70",
+        "g": "7a7552ad08f425dd",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "5",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 425,
+        "y": 1540,
+        "wires": [
+            [
+                "163aaaf6e910b0a5",
+                "db074d5ae07fe758"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "ed128e4ff9aeb793",
+        "type": "split",
+        "z": "723a850f03705f70",
+        "g": "7a7552ad08f425dd",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "topic",
+        "x": 365,
+        "y": 1540,
+        "wires": [
+            [
+                "570ed9bdfd1efa3a"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "163aaaf6e910b0a5",
+        "type": "debug",
+        "z": "723a850f03705f70",
+        "g": "7a7552ad08f425dd",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 485,
+        "y": 1570,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "f30dd169e7f2c4f5",
+        "type": "watch",
+        "z": "723a850f03705f70",
+        "g": "7a7552ad08f425dd",
+        "name": "",
+        "files": "/home/pi/MAS400_log_2022.json",
+        "recursive": "",
+        "x": 190,
+        "y": 1670,
+        "wires": [
+            [
+                "31f21cb516637207",
+                "367fc2cb2bc8f851"
+            ]
+        ]
+    },
+    {
+        "id": "ad9b7901f88a37b9",
+        "type": "ui_text",
+        "z": "723a850f03705f70",
+        "g": "7a7552ad08f425dd",
+        "group": "be0e67b7.090858",
+        "order": 5,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "Log=",
+        "format": "{{msg.payload}} kB",
+        "layout": "row-left",
+        "className": "",
+        "x": 450,
+        "y": 1670,
+        "wires": []
+    },
+    {
+        "id": "14d5cffdedc533ac",
+        "type": "traffic",
+        "z": "723a850f03705f70",
+        "g": "7a7552ad08f425dd",
+        "name": "",
+        "property_allow": "payload",
+        "filter_allow": "Connected",
+        "ignore_case_allow": false,
+        "negate_allow": false,
+        "send_allow": false,
+        "property_stop": "payload",
+        "filter_stop": "Disconnected",
+        "ignore_case_stop": false,
+        "negate_stop": false,
+        "send_stop": false,
+        "default_start": false,
+        "differ": false,
+        "x": 250,
+        "y": 1540,
+        "wires": [
+            [
+                "ed128e4ff9aeb793",
+                "ce923d5eafa56ad4"
+            ]
+        ],
+        "info": "During data logging I learned that unrestrained data capture was costly on storag space, so this logic was added to inhibit data logging when MQTT connectivity is down."
+    },
+    {
+        "id": "d95eb1cd34ece5a4",
+        "type": "link out",
+        "z": "723a850f03705f70",
+        "g": "a1fbbb2c794ac7c2",
+        "name": "Traffic Light Out",
+        "mode": "link",
+        "links": [
+            "3b94aaf22f2b42a9"
+        ],
+        "x": 265,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "3b94aaf22f2b42a9",
+        "type": "link in",
+        "z": "723a850f03705f70",
+        "g": "7a7552ad08f425dd",
+        "name": "Traffic Light In",
+        "links": [
+            "d95eb1cd34ece5a4"
+        ],
+        "x": 145,
+        "y": 1580,
+        "wires": [
+            [
+                "14d5cffdedc533ac"
+            ]
+        ]
+    },
+    {
+        "id": "367fc2cb2bc8f851",
+        "type": "calculator",
+        "z": "723a850f03705f70",
+        "g": "7a7552ad08f425dd",
+        "name": "Convert b to kb",
+        "inputMsgField": "size",
+        "outputMsgField": "payload",
+        "operation": "div",
+        "constant": "1024",
+        "round": true,
+        "decimals": "0",
+        "x": 365,
+        "y": 1670,
+        "wires": [
+            [
+                "ad9b7901f88a37b9"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "a8d6183bf5def602",
+        "type": "join",
+        "z": "723a850f03705f70",
+        "g": "03810b4592173062",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "",
+        "propertyType": "full",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "1",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 295,
+        "y": 590,
+        "wires": [
+            [
+                "6d3e0c270e374ac0"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "6d3e0c270e374ac0",
+        "type": "ui_table",
+        "z": "723a850f03705f70",
+        "g": "03810b4592173062",
+        "group": "de058a5b.7c6868",
+        "name": "Replay/Image",
+        "order": 3,
+        "width": 13,
+        "height": 2,
+        "columns": [
+            {
+                "field": "topic",
+                "title": "Topic",
+                "width": "15%",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "payload",
+                "title": "Payload",
+                "width": "",
+                "align": "left",
+                "formatter": "link",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 410,
+        "y": 590,
+        "wires": []
+    },
+    {
+        "id": "ecd0e7532513094f",
+        "type": "switch",
+        "z": "723a850f03705f70",
+        "g": "73e96092dd657934",
+        "name": "Replay Vectoring",
+        "property": "parts.key",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "status/shipLatitudeDeg",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "status/shipLongitudeDeg",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "status/shipCourseOverGroundDeg",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "status/shipSpeedOverGroundMS",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 115,
+        "y": 1970,
+        "wires": [
+            [
+                "b4542e3ebcb2838b",
+                "cd0ea4f672659f4e"
+            ],
+            [
+                "9216ee322dbb8880",
+                "eb89cb9216b25a49"
+            ],
+            [
+                "3a7b98234da93ad8"
+            ],
+            [
+                "85894f9f69f06550",
+                "7de3ed55f7339121"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "f5c354f0e9534f2d",
+        "type": "split",
+        "z": "723a850f03705f70",
+        "g": "73e96092dd657934",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 385,
+        "y": 1830,
+        "wires": [
+            [
+                "d8a1bf5d6a32c691"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "cd0ea4f672659f4e",
+        "type": "counter",
+        "z": "723a850f03705f70",
+        "g": "73e96092dd657934",
+        "name": "",
+        "init": "0",
+        "step": "1",
+        "lower": "",
+        "upper": "",
+        "mode": "increment",
+        "outputs": "1",
+        "x": 205,
+        "y": 1910,
+        "wires": [
+            [
+                "315eb59634829e2b"
+            ]
+        ],
+        "l": false,
+        "info": "Tracks the number of telemetry records processed for playback."
+    },
+    {
+        "id": "b4542e3ebcb2838b",
+        "type": "change",
+        "z": "723a850f03705f70",
+        "g": "73e96092dd657934",
+        "name": "Set topic to \"lat\"",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "lat",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number(msg.payload)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 205,
+        "y": 1940,
+        "wires": [
+            [
+                "4cf50a94dc15150b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "9216ee322dbb8880",
+        "type": "change",
+        "z": "723a850f03705f70",
+        "g": "73e96092dd657934",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "name",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "MAS400",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 205,
+        "y": 1970,
+        "wires": [
+            [
+                "4cf50a94dc15150b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "eb89cb9216b25a49",
+        "type": "change",
+        "z": "723a850f03705f70",
+        "g": "73e96092dd657934",
+        "name": "Set topic to \"lon\"",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "lon",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number(msg.payload)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 205,
+        "y": 2000,
+        "wires": [
+            [
+                "4cf50a94dc15150b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "a1efcddab613b526",
+        "type": "json",
+        "z": "723a850f03705f70",
+        "g": "73e96092dd657934",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": true,
+        "x": 335,
+        "y": 1830,
+        "wires": [
+            [
+                "f5c354f0e9534f2d"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "315eb59634829e2b",
+        "type": "debug",
+        "z": "723a850f03705f70",
+        "g": "73e96092dd657934",
+        "name": "",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "count",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 255,
+        "y": 1910,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "4cf50a94dc15150b",
+        "type": "join",
+        "z": "723a850f03705f70",
+        "g": "73e96092dd657934",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "6",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 315,
+        "y": 1940,
+        "wires": [
+            [
+                "78070ea13b1222f0",
+                "7d98493b02e5e93f",
+                "2675a6fad0472177"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "0a1f83d36684bb85",
+        "type": "split",
+        "z": "723a850f03705f70",
+        "g": "73e96092dd657934",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 285,
+        "y": 1830,
+        "wires": [
+            [
+                "a1efcddab613b526"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "78070ea13b1222f0",
+        "type": "worldmap",
+        "z": "723a850f03705f70",
+        "g": "73e96092dd657934",
+        "name": "",
+        "lat": "",
+        "lon": "",
+        "zoom": "13",
+        "layer": "OSMC",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "show",
+        "layers": "show",
+        "panit": "true",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "false",
+        "coords": "dms",
+        "showgrid": "true",
+        "allowFileDrop": "false",
+        "path": "/worldmap2",
+        "overlist": "DR,CO",
+        "maplist": "OSMG,OSMC,EsriC,EsriS,EsriT,EsriO,EsriDG,NatGeo,UKOS,OpTop,SW",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 470,
+        "y": 1940,
+        "wires": []
+    },
+    {
+        "id": "7d98493b02e5e93f",
+        "type": "worldmap-tracks",
+        "z": "723a850f03705f70",
+        "g": "73e96092dd657934",
+        "name": "",
+        "depth": "500",
+        "layer": "single",
+        "smooth": false,
+        "x": 365,
+        "y": 1920,
+        "wires": [
+            [
+                "78070ea13b1222f0"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "989371046986fae3",
+        "type": "switch",
+        "z": "723a850f03705f70",
+        "g": "73e96092dd657934",
+        "name": "JSON EOF Error killer",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "nempty"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 235,
+        "y": 1830,
+        "wires": [
+            [
+                "0a1f83d36684bb85"
+            ]
+        ],
+        "l": false,
+        "info": "This is a workaround to circumvent a peculiar End Of File error in the form of an extra empty line being  encountered at the end of file playback."
+    },
+    {
+        "id": "6ceea8a57434c1c2",
+        "type": "file in",
+        "z": "723a850f03705f70",
+        "g": "73e96092dd657934",
+        "name": "",
+        "filename": "/home/pi/MAS400_log_03-22-2022.json",
+        "format": "lines",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 135,
+        "y": 1830,
+        "wires": [
+            [
+                "f807a5ab375f5472"
+            ]
+        ],
+        "l": false,
+        "info": "This accesses the existing log file stored on the MAS400 RPi."
+    },
+    {
+        "id": "65f4623a630b5c3a",
+        "type": "inject",
+        "z": "723a850f03705f70",
+        "g": "73e96092dd657934",
+        "name": "Start",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 85,
+        "y": 1830,
+        "wires": [
+            [
+                "6ceea8a57434c1c2"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "3a7b98234da93ad8",
+        "type": "change",
+        "z": "723a850f03705f70",
+        "g": "73e96092dd657934",
+        "name": "Set topic to \"heading\"",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "heading",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number(msg.payload)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 205,
+        "y": 2030,
+        "wires": [
+            [
+                "4cf50a94dc15150b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "85894f9f69f06550",
+        "type": "change",
+        "z": "723a850f03705f70",
+        "g": "73e96092dd657934",
+        "name": "Set topic to \"speed\"",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "speed",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number(msg.payload)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 205,
+        "y": 2060,
+        "wires": [
+            [
+                "4cf50a94dc15150b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "2675a6fad0472177",
+        "type": "debug",
+        "z": "723a850f03705f70",
+        "g": "73e96092dd657934",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 365,
+        "y": 1960,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "f807a5ab375f5472",
+        "type": "delay",
+        "z": "723a850f03705f70",
+        "g": "73e96092dd657934",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "0.05",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 185,
+        "y": 1830,
+        "wires": [
+            [
+                "989371046986fae3"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d8a1bf5d6a32c691",
+        "type": "link out",
+        "z": "723a850f03705f70",
+        "g": "73e96092dd657934",
+        "name": "Data Fetch Out",
+        "mode": "link",
+        "links": [
+            "efc2cf70f35c7183"
+        ],
+        "x": 445,
+        "y": 1830,
+        "wires": []
+    },
+    {
+        "id": "efc2cf70f35c7183",
+        "type": "link in",
+        "z": "723a850f03705f70",
+        "g": "73e96092dd657934",
+        "name": "Data Fetch In",
+        "links": [
+            "d8a1bf5d6a32c691"
+        ],
+        "x": 65,
+        "y": 1970,
+        "wires": [
+            [
+                "ecd0e7532513094f"
+            ]
+        ]
+    },
+    {
+        "id": "fb9cc7df3d49177a",
+        "type": "inject",
+        "z": "723a850f03705f70",
+        "g": "73e96092dd657934",
+        "name": "Reset",
+        "props": [
+            {
+                "p": "reset",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 145,
+        "y": 1880,
+        "wires": [
+            [
+                "f807a5ab375f5472",
+                "cd0ea4f672659f4e",
+                "51eed9e924cdce87"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "51eed9e924cdce87",
+        "type": "change",
+        "z": "723a850f03705f70",
+        "g": "73e96092dd657934",
+        "name": "",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "reset",
+                "pt": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"name\":\"MAS400\",\"deleted\":true}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 205,
+        "y": 1880,
+        "wires": [
+            [
+                "7d98493b02e5e93f"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "c2f91a5c9324c430",
+        "type": "moment",
+        "z": "723a850f03705f70",
+        "g": "a1fbbb2c794ac7c2",
+        "name": "",
+        "topic": "",
+        "input": "payload",
+        "inputType": "msg",
+        "inTz": "America/Chicago",
+        "adjAmount": 0,
+        "adjType": "days",
+        "adjDir": "add",
+        "format": "",
+        "locale": "en-US",
+        "output": "",
+        "outputType": "msg",
+        "outTz": "America/Chicago",
+        "x": 265,
+        "y": 760,
+        "wires": [
+            [
+                "0a31c45f55ed6146"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "aa359da50e8cee46",
+        "type": "ui_template",
+        "z": "723a850f03705f70",
+        "g": "693f162dbf677324",
+        "group": "de058a5b.7c6868",
+        "name": "1 = Hard Port",
+        "order": 8,
+        "width": 3,
+        "height": 2,
+        "format": "<img src={{msg.payload}}></img>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 760,
+        "y": 1290,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3c15b1124590609b",
+        "type": "ui_template",
+        "z": "723a850f03705f70",
+        "g": "693f162dbf677324",
+        "group": "de058a5b.7c6868",
+        "name": "2 = Hard Starboard",
+        "order": 9,
+        "width": 3,
+        "height": 2,
+        "format": "<img src={{msg.payload}}></img>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 770,
+        "y": 1320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "60c3bc3a769f090c",
+        "type": "ui_template",
+        "z": "723a850f03705f70",
+        "g": "693f162dbf677324",
+        "group": "de058a5b.7c6868",
+        "name": "3 = Port Astern",
+        "order": 11,
+        "width": 3,
+        "height": 2,
+        "format": "<img src={{msg.payload}}></img>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 760,
+        "y": 1350,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3d24f0f24255a581",
+        "type": "ui_template",
+        "z": "723a850f03705f70",
+        "g": "693f162dbf677324",
+        "group": "de058a5b.7c6868",
+        "name": "4 = Starboard Astern",
+        "order": 12,
+        "width": 3,
+        "height": 2,
+        "format": "<img src={{msg.payload}}></img>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 780,
+        "y": 1380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6a373ee33ea68fc4",
+        "type": "ui_template",
+        "z": "723a850f03705f70",
+        "g": "693f162dbf677324",
+        "group": "de058a5b.7c6868",
+        "name": "6 = Port Bow",
+        "order": 5,
+        "width": 3,
+        "height": 2,
+        "format": "<img src={{msg.payload}}></img>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 750,
+        "y": 1440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "937946ced567d673",
+        "type": "ui_template",
+        "z": "723a850f03705f70",
+        "g": "693f162dbf677324",
+        "group": "de058a5b.7c6868",
+        "name": "5 = Starboard Bow",
+        "order": 6,
+        "width": 3,
+        "height": 2,
+        "format": "<img src={{msg.payload}}></img>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 770,
+        "y": 1410,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "99694684ca63166e",
+        "type": "switch",
+        "z": "723a850f03705f70",
+        "g": "693f162dbf677324",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "4",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "5",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "6",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 6,
+        "x": 480,
+        "y": 1340,
+        "wires": [
+            [
+                "18d7fae9856cc12f"
+            ],
+            [],
+            [],
+            [],
+            [],
+            [
+                "50584460d47f6fd8"
+            ]
+        ]
+    },
+    {
+        "id": "50584460d47f6fd8",
+        "type": "change",
+        "z": "723a850f03705f70",
+        "g": "693f162dbf677324",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "https://mas-science-data-publicimages-mission1-jun21.s3.eu-gb.cloud-object-storage.appdomain.cloud/hds-run_y2021m06d16_h10m55s56_cam_6_frame_04357.png",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 625,
+        "y": 1440,
+        "wires": [
+            [
+                "6a373ee33ea68fc4",
+                "ee90af320510dac9"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "ee90af320510dac9",
+        "type": "debug",
+        "z": "723a850f03705f70",
+        "g": "693f162dbf677324",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 635,
+        "y": 1360,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "18d7fae9856cc12f",
+        "type": "change",
+        "z": "723a850f03705f70",
+        "g": "693f162dbf677324",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "https://mas-science-data-publicimages-mission1-jun21.s3.eu-gb.cloud-object-storage.appdomain.cloud/hds-run_y2021m06d17_h19m50s26_cam_1_frame_02377.png",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 625,
+        "y": 1290,
+        "wires": [
+            [
+                "aa359da50e8cee46",
+                "ee90af320510dac9"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "646a4ce2fa197521",
+        "type": "inject",
+        "z": "723a850f03705f70",
+        "g": "76fcb5288eb1cd8a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 85,
+        "y": 2230,
+        "wires": [
+            [
+                "94c1424c14bca0f6"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "94c1424c14bca0f6",
+        "type": "exec",
+        "z": "723a850f03705f70",
+        "g": "76fcb5288eb1cd8a",
+        "command": "cat",
+        "addpay": "",
+        "append": "/proc/loadavg",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "/proc/loadavg",
+        "x": 200,
+        "y": 2230,
+        "wires": [
+            [
+                "bf4b32a1fbd2ec38",
+                "08384bed2cc43501",
+                "1dfed45f55d3d772"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "bf4b32a1fbd2ec38",
+        "type": "change",
+        "z": "723a850f03705f70",
+        "g": "76fcb5288eb1cd8a",
+        "name": "%Load @ Minute 1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number($substring(payload,0,4))",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Minute 1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 2190,
+        "wires": [
+            [
+                "10cfdd6bd56bca72"
+            ]
+        ]
+    },
+    {
+        "id": "08384bed2cc43501",
+        "type": "change",
+        "z": "723a850f03705f70",
+        "g": "76fcb5288eb1cd8a",
+        "name": "%Load @ Minute 5",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number($substring(payload,5,4))",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Minute 5",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 2220,
+        "wires": [
+            [
+                "10cfdd6bd56bca72"
+            ]
+        ]
+    },
+    {
+        "id": "1dfed45f55d3d772",
+        "type": "change",
+        "z": "723a850f03705f70",
+        "g": "76fcb5288eb1cd8a",
+        "name": "%Load @ Minute 15",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number($substring(payload,10,4))",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Minute 15",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 2250,
+        "wires": [
+            [
+                "10cfdd6bd56bca72"
+            ]
+        ]
+    },
+    {
+        "id": "5f9a24e0468796be",
+        "type": "mqtt out",
+        "z": "723a850f03705f70",
+        "g": "76fcb5288eb1cd8a",
+        "name": "",
+        "topic": "CoveyPi/serverLoad/vilrosbox",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "589377387ab13f0a",
+        "x": 790,
+        "y": 2220,
+        "wires": []
+    },
+    {
+        "id": "10cfdd6bd56bca72",
+        "type": "join",
+        "z": "723a850f03705f70",
+        "g": "76fcb5288eb1cd8a",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": true,
+        "timeout": "",
+        "count": "3",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 590,
+        "y": 2220,
+        "wires": [
+            [
+                "5f9a24e0468796be"
+            ]
+        ]
+    },
+    {
+        "id": "ae9b10ca52f13bdd",
+        "type": "mqtt in",
+        "z": "723a850f03705f70",
+        "g": "13cba7e2abe41be3",
+        "name": "AIS",
+        "topic": "AIS/JSON",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "f12e74aa.501eb8",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 90,
+        "y": 150,
+        "wires": [
+            [
+                "8b9a719230cb1251"
+            ]
+        ]
+    },
+    {
+        "id": "1a21761f7a85df24",
+        "type": "mqtt in",
+        "z": "723a850f03705f70",
+        "g": "13cba7e2abe41be3",
+        "name": "Status",
+        "topic": "status/JSON",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "f12e74aa.501eb8",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 90,
+        "y": 100,
+        "wires": [
+            [
+                "63ed867f740aca8d"
+            ]
+        ]
+    },
+    {
+        "id": "b5c6298851890342",
+        "type": "mqtt in",
+        "z": "723a850f03705f70",
+        "g": "13cba7e2abe41be3",
+        "name": "Replay Status",
+        "topic": "replay/status/JSON",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "f12e74aa.501eb8",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 330,
+        "y": 200,
+        "wires": [
+            [
+                "cf0652d131e29887"
+            ]
+        ]
+    },
+    {
+        "id": "457410faa30fbad6",
+        "type": "mqtt in",
+        "z": "723a850f03705f70",
+        "g": "13cba7e2abe41be3",
+        "name": "Replay AIS",
+        "topic": "replay/AIS/JSON",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "f12e74aa.501eb8",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 320,
+        "y": 100,
+        "wires": [
+            [
+                "550e42e551ee6bbe"
+            ]
+        ]
+    },
+    {
+        "id": "26fdc831b08f82c4",
+        "type": "mqtt in",
+        "z": "723a850f03705f70",
+        "g": "13cba7e2abe41be3",
+        "name": "Replay Hazard",
+        "topic": "replay/hazard/JSON",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "f12e74aa.501eb8",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 340,
+        "y": 150,
+        "wires": [
+            [
+                "d1bd330dc0814d3c"
+            ]
+        ]
+    },
+    {
+        "id": "63ed867f740aca8d",
+        "type": "link out",
+        "z": "723a850f03705f70",
+        "g": "13cba7e2abe41be3",
+        "name": "Status out",
+        "mode": "link",
+        "links": [
+            "5846da495b8549b7",
+            "473860ab77e94487",
+            "491c6228c2642eb6",
+            "eed36892c1cdd78b"
+        ],
+        "x": 175,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "8b9a719230cb1251",
+        "type": "link out",
+        "z": "723a850f03705f70",
+        "g": "13cba7e2abe41be3",
+        "name": "AIS out",
+        "mode": "link",
+        "links": [
+            "2fdde64cb07f56a1"
+        ],
+        "x": 175,
+        "y": 150,
+        "wires": []
+    },
+    {
+        "id": "cf0652d131e29887",
+        "type": "link out",
+        "z": "723a850f03705f70",
+        "g": "13cba7e2abe41be3",
+        "name": "Replay Status out",
+        "mode": "link",
+        "links": [],
+        "x": 435,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "550e42e551ee6bbe",
+        "type": "link out",
+        "z": "723a850f03705f70",
+        "g": "13cba7e2abe41be3",
+        "name": "Replay AIS out",
+        "mode": "link",
+        "links": [],
+        "x": 415,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "d1bd330dc0814d3c",
+        "type": "link out",
+        "z": "723a850f03705f70",
+        "g": "13cba7e2abe41be3",
+        "name": "Replay Hazard out",
+        "mode": "link",
+        "links": [
+            "e484348b5bfecf62",
+            "969cd461c0cdf2a6"
+        ],
+        "x": 455,
+        "y": 150,
+        "wires": []
+    },
+    {
+        "id": "e484348b5bfecf62",
+        "type": "link in",
+        "z": "723a850f03705f70",
+        "g": "03810b4592173062",
+        "name": "Replay Hazard In",
+        "links": [
+            "d1bd330dc0814d3c"
+        ],
+        "x": 55,
+        "y": 590,
+        "wires": [
+            [
+                "6ae3409587e5eb4e"
+            ]
+        ]
+    },
+    {
+        "id": "6ae3409587e5eb4e",
+        "type": "change",
+        "z": "723a850f03705f70",
+        "g": "03810b4592173062",
+        "name": "Annotation",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.annotation",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Annotation",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 180,
+        "y": 590,
+        "wires": [
+            [
+                "a8d6183bf5def602"
+            ]
+        ]
+    },
+    {
+        "id": "5846da495b8549b7",
+        "type": "link in",
+        "z": "723a850f03705f70",
+        "g": "03810b4592173062",
+        "name": "Status In",
+        "links": [
+            "63ed867f740aca8d"
+        ],
+        "x": 55,
+        "y": 490,
+        "wires": [
+            [
+                "ba1d15ae059c0c31",
+                "449e7f8e75426203",
+                "36f546f50ab444a7",
+                "ee132bd77b2a94a7",
+                "6f7e81b6279bfddd"
+            ]
+        ]
+    },
+    {
+        "id": "ba1d15ae059c0c31",
+        "type": "change",
+        "z": "723a850f03705f70",
+        "g": "03810b4592173062",
+        "name": "Latitude",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number(payload.shipLatitudeDeg)",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "lat",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 170,
+        "y": 430,
+        "wires": [
+            [
+                "5f25aa61c6ab6848",
+                "5a2629061bfccb0f"
+            ]
+        ]
+    },
+    {
+        "id": "449e7f8e75426203",
+        "type": "change",
+        "z": "723a850f03705f70",
+        "g": "03810b4592173062",
+        "name": "Longitude",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number(payload.shipLongitudeDeg)",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "lon",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 170,
+        "y": 460,
+        "wires": [
+            [
+                "5a2629061bfccb0f"
+            ]
+        ]
+    },
+    {
+        "id": "36f546f50ab444a7",
+        "type": "change",
+        "z": "723a850f03705f70",
+        "g": "03810b4592173062",
+        "name": "Name",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "MAS400",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "name",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 160,
+        "y": 490,
+        "wires": [
+            [
+                "5a2629061bfccb0f"
+            ]
+        ]
+    },
+    {
+        "id": "7a1c70a34c93403b",
+        "type": "switch",
+        "z": "723a850f03705f70",
+        "g": "f0f6caf54c075a94",
+        "name": "Navigation",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "shipHeadingDeg",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "shipSpeedOverGroundMS",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "shipThrottlePercentThousands",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "shipPitchDeg",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "shipRudderAnglePercentThousands",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "shipRollDeg",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "waterDepthM",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 7,
+        "x": 645,
+        "y": 790,
+        "wires": [
+            [
+                "7318ec620ccf9c0f"
+            ],
+            [
+                "db733d76c650e213"
+            ],
+            [
+                "0ea04183ec9f7fd3"
+            ],
+            [
+                "0c7d9f8da552d721"
+            ],
+            [
+                "2880ccc846f2b19a"
+            ],
+            [
+                "f2e5df03442864f3"
+            ],
+            [
+                "b454993e3f99f668"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "473860ab77e94487",
+        "type": "link in",
+        "z": "723a850f03705f70",
+        "g": "f0f6caf54c075a94",
+        "name": "Status In",
+        "links": [
+            "63ed867f740aca8d"
+        ],
+        "x": 545,
+        "y": 790,
+        "wires": [
+            [
+                "f91234c1e07b5ee9"
+            ]
+        ]
+    },
+    {
+        "id": "f91234c1e07b5ee9",
+        "type": "split",
+        "z": "723a850f03705f70",
+        "g": "f0f6caf54c075a94",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "topic",
+        "x": 595,
+        "y": 790,
+        "wires": [
+            [
+                "7a1c70a34c93403b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "2def4bce8d2970bd",
+        "type": "split",
+        "z": "723a850f03705f70",
+        "g": "b5598464a148aa0e",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "topic",
+        "x": 745,
+        "y": 370,
+        "wires": [
+            [
+                "036e63eec57e3816"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "b96ed3ba1795e421",
+        "type": "split",
+        "z": "723a850f03705f70",
+        "g": "a1fbbb2c794ac7c2",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "topic",
+        "x": 115,
+        "y": 820,
+        "wires": [
+            [
+                "8e1303931dec7873"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "8fab293e53c9c709",
+        "type": "split",
+        "z": "723a850f03705f70",
+        "g": "693f162dbf677324",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "topic",
+        "x": 115,
+        "y": 1240,
+        "wires": [
+            [
+                "40b2344c0e12db39"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "fef4ead37857648c",
+        "type": "split",
+        "z": "723a850f03705f70",
+        "g": "693f162dbf677324",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "topic",
+        "x": 115,
+        "y": 1310,
+        "wires": [
+            [
+                "af97e83c723692a9"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "7497921e.79fa2c",
+        "type": "switch",
+        "z": "723a850f03705f70",
+        "g": "bc7cc220.f4fad",
+        "name": "etsMasPi1",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "/cpuLoad",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/cpuClock",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/cpuTemp",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/cpuVolts",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/freeMemory",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/diskRoot",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/throttleThrottled",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/throttleFrequency",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/throttleSoftTempLimit",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/throttleUndervolt",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 10,
+        "x": 1295,
+        "y": 220,
+        "wires": [
+            [
+                "b4d54643.0ef488"
+            ],
+            [
+                "ec342f6e.b988d"
+            ],
+            [
+                "8c0d0baa.4c90a8"
+            ],
+            [
+                "7762c8e.b9f2338"
+            ],
+            [
+                "3ac6ede1.1b68f2"
+            ],
+            [
+                "e8016041.eca6c"
+            ],
+            [
+                "22e61b63.6e6dd4"
+            ],
+            [
+                "ca31bcf7.9556"
+            ],
+            [
+                "7980c723.34a8d8"
+            ],
+            [
+                "599f478a.ba57f8"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "e8016041.eca6c",
+        "type": "ui_text",
+        "z": "723a850f03705f70",
+        "g": "bc7cc220.f4fad",
+        "group": "36c395bf.7895fa",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "<font size=1>Disk Root: </font>",
+        "format": "{{msg.payload|number:2}}",
+        "layout": "row-left",
+        "x": 1520,
+        "y": 230,
+        "wires": []
+    },
+    {
+        "id": "599f478a.ba57f8",
+        "type": "ui_led",
+        "z": "723a850f03705f70",
+        "g": "bc7cc220.f4fad",
+        "order": 10,
+        "group": "36c395bf.7895fa",
+        "width": 3,
+        "height": 1,
+        "label": "<font size=1>Undervoltage</font>",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Undervoltage Throttle",
+        "x": 1490,
+        "y": 350,
+        "wires": []
+    },
+    {
+        "id": "ca31bcf7.9556",
+        "type": "ui_led",
+        "z": "723a850f03705f70",
+        "g": "bc7cc220.f4fad",
+        "order": 6,
+        "group": "36c395bf.7895fa",
+        "width": 3,
+        "height": 1,
+        "label": "<font size=1>Frequency</font>",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Frequency Throttle",
+        "x": 1480,
+        "y": 290,
+        "wires": []
+    },
+    {
+        "id": "22e61b63.6e6dd4",
+        "type": "ui_led",
+        "z": "723a850f03705f70",
+        "g": "bc7cc220.f4fad",
+        "order": 4,
+        "group": "36c395bf.7895fa",
+        "width": 3,
+        "height": 1,
+        "label": "<font size=1>Throttled</font>",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Currently Throttled",
+        "x": 1480,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "7980c723.34a8d8",
+        "type": "ui_led",
+        "z": "723a850f03705f70",
+        "g": "bc7cc220.f4fad",
+        "order": 8,
+        "group": "36c395bf.7895fa",
+        "width": 3,
+        "height": 1,
+        "label": "<font size=1>Soft Temp Limit</font>",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "SoftTempLimit Throttle",
+        "x": 1490,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "ec342f6e.b988d",
+        "type": "calculator",
+        "z": "723a850f03705f70",
+        "g": "bc7cc220.f4fad",
+        "name": "",
+        "inputMsgField": "payload",
+        "outputMsgField": "payload",
+        "operation": "mult",
+        "constant": "1000",
+        "round": true,
+        "decimals": 0,
+        "x": 1405,
+        "y": 110,
+        "wires": [
+            [
+                "cd9bb3ea.ba28e"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "b4d54643.0ef488",
+        "type": "ui_level",
+        "z": "723a850f03705f70",
+        "g": "bc7cc220.f4fad",
+        "group": "36c395bf.7895fa",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "name": "CPU Load",
+        "label": "Load",
+        "colorHi": "#e60000",
+        "colorWarn": "#ff9900",
+        "colorNormal": "#00b33c",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "4",
+        "segWarn": "1",
+        "segHigh": "3",
+        "unit": "",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "2",
+        "animations": "soft",
+        "shape": "1",
+        "colorschema": "valuedriven",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "segments",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 1460,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "8c0d0baa.4c90a8",
+        "type": "ui_level",
+        "z": "723a850f03705f70",
+        "g": "bc7cc220.f4fad",
+        "group": "36c395bf.7895fa",
+        "order": 5,
+        "width": 5,
+        "height": 1,
+        "name": "CPU Temp",
+        "label": "",
+        "colorHi": "#e60000",
+        "colorWarn": "#ff9900",
+        "colorNormal": "#00b33c",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "80",
+        "segWarn": "",
+        "segHigh": "",
+        "unit": "°",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "0",
+        "animations": "soft",
+        "shape": "1",
+        "colorschema": "valuedriven",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "segments",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 1460,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "cd9bb3ea.ba28e",
+        "type": "ui_level",
+        "z": "723a850f03705f70",
+        "g": "bc7cc220.f4fad",
+        "group": "36c395bf.7895fa",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "name": "CPU Clock",
+        "label": "",
+        "colorHi": "#e60000",
+        "colorWarn": "#ff9900",
+        "colorNormal": "#00c0c0",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "1500",
+        "segWarn": "500",
+        "segHigh": "",
+        "unit": "MHz",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "0",
+        "animations": "soft",
+        "shape": "1",
+        "colorschema": "valuedriven",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "segments",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 1510,
+        "y": 110,
+        "wires": []
+    },
+    {
+        "id": "7762c8e.b9f2338",
+        "type": "ui_level",
+        "z": "723a850f03705f70",
+        "g": "bc7cc220.f4fad",
+        "group": "36c395bf.7895fa",
+        "order": 7,
+        "width": 5,
+        "height": 1,
+        "name": "CPU V",
+        "label": "",
+        "colorHi": "#e60000",
+        "colorWarn": "#ff9900",
+        "colorNormal": "#00c0c0",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "1.5",
+        "segWarn": "",
+        "segHigh": "",
+        "unit": "V",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "2",
+        "animations": "soft",
+        "shape": "1",
+        "colorschema": "fixed",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "segments",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 1440,
+        "y": 170,
+        "wires": []
+    },
+    {
+        "id": "3ac6ede1.1b68f2",
+        "type": "ui_level",
+        "z": "723a850f03705f70",
+        "g": "bc7cc220.f4fad",
+        "group": "36c395bf.7895fa",
+        "order": 9,
+        "width": 5,
+        "height": 1,
+        "name": "Free Mem",
+        "label": "",
+        "colorHi": "#00c000",
+        "colorWarn": "#c0c000",
+        "colorNormal": "#c00000",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "4096",
+        "segWarn": "1024",
+        "segHigh": "2048",
+        "unit": "MB",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "0",
+        "animations": "soft",
+        "shape": "1",
+        "colorschema": "valuedriven",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "segments",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 1460,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "9187162fb968190d",
+        "type": "mqtt in",
+        "z": "723a850f03705f70",
+        "g": "13cba7e2abe41be3",
+        "name": "Science Pod",
+        "topic": "science_pod",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "f12e74aa.501eb8",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 570,
+        "y": 150,
+        "wires": [
+            [
+                "32ee6be0cc41ddfd"
+            ]
+        ]
+    },
+    {
+        "id": "2ec1d98f4072c7bb",
+        "type": "mqtt in",
+        "z": "723a850f03705f70",
+        "g": "13cba7e2abe41be3",
+        "name": "Hydrophone",
+        "topic": "hydrophone",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "f12e74aa.501eb8",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 110,
+        "y": 200,
+        "wires": [
+            [
+                "2e53245d83e7559b"
+            ]
+        ]
+    },
+    {
+        "id": "2e53245d83e7559b",
+        "type": "link out",
+        "z": "723a850f03705f70",
+        "g": "13cba7e2abe41be3",
+        "name": "Hydrophone out",
+        "mode": "link",
+        "links": [],
+        "x": 215,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "32ee6be0cc41ddfd",
+        "type": "switch",
+        "z": "723a850f03705f70",
+        "g": "13cba7e2abe41be3",
+        "name": "RPi",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "system/etsMasPi1",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "system/etsMasPi2",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "system/etsMasPi3",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "system/etsMasPi4",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 710,
+        "y": 150,
+        "wires": [
+            [
+                "5b50437cb9a4ad8a"
+            ],
+            [
+                "4bcf02faf7a54fe1"
+            ],
+            [
+                "1392182e12b47913"
+            ],
+            [
+                "89a7f7ab2717e15c"
+            ]
+        ]
+    },
+    {
+        "id": "ee593aae1a3a8e92",
+        "type": "switch",
+        "z": "723a850f03705f70",
+        "g": "d59bc94e3bf5ac98",
+        "name": "etsMasPi2",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "/cpuLoad",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/cpuClock",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/cpuTemp",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/cpuVolts",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/freeMemory",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/diskRoot",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/throttleThrottled",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/throttleFrequency",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/throttleSoftTempLimit",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/throttleUndervolt",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 10,
+        "x": 1295,
+        "y": 570,
+        "wires": [
+            [
+                "44ad0d1694b2320b"
+            ],
+            [
+                "e40dbbff9e247eaa"
+            ],
+            [
+                "11e04ab5848925c1"
+            ],
+            [
+                "9a597807131908e4"
+            ],
+            [
+                "42e1fc378068a668"
+            ],
+            [
+                "ca00ee395f70e32b"
+            ],
+            [
+                "ddadbaaaf28f0702"
+            ],
+            [
+                "43a178fad536aa62"
+            ],
+            [
+                "8f8ed2737ba0a977"
+            ],
+            [
+                "7cc36f792be4cec5"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "ca00ee395f70e32b",
+        "type": "ui_text",
+        "z": "723a850f03705f70",
+        "g": "d59bc94e3bf5ac98",
+        "group": "ceb7a6a0520b3d7c",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "<font size=1>Disk Root: </font>",
+        "format": "{{msg.payload|number:2}}",
+        "layout": "row-left",
+        "x": 1520,
+        "y": 590,
+        "wires": []
+    },
+    {
+        "id": "7cc36f792be4cec5",
+        "type": "ui_led",
+        "z": "723a850f03705f70",
+        "g": "d59bc94e3bf5ac98",
+        "order": 10,
+        "group": "ceb7a6a0520b3d7c",
+        "width": 3,
+        "height": 1,
+        "label": "<font size=1>Undervoltage</font>",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Undervoltage Throttle",
+        "x": 1490,
+        "y": 710,
+        "wires": []
+    },
+    {
+        "id": "43a178fad536aa62",
+        "type": "ui_led",
+        "z": "723a850f03705f70",
+        "g": "d59bc94e3bf5ac98",
+        "order": 6,
+        "group": "ceb7a6a0520b3d7c",
+        "width": 3,
+        "height": 1,
+        "label": "<font size=1>Frequency</font>",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Frequency Throttle",
+        "x": 1480,
+        "y": 650,
+        "wires": []
+    },
+    {
+        "id": "ddadbaaaf28f0702",
+        "type": "ui_led",
+        "z": "723a850f03705f70",
+        "g": "d59bc94e3bf5ac98",
+        "order": 4,
+        "group": "ceb7a6a0520b3d7c",
+        "width": 3,
+        "height": 1,
+        "label": "<font size=1>Throttled</font>",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Currently Throttled",
+        "x": 1480,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "8f8ed2737ba0a977",
+        "type": "ui_led",
+        "z": "723a850f03705f70",
+        "g": "d59bc94e3bf5ac98",
+        "order": 8,
+        "group": "ceb7a6a0520b3d7c",
+        "width": 3,
+        "height": 1,
+        "label": "<font size=1>Soft Temp Limit</font>",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "SoftTempLimit Throttle",
+        "x": 1490,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "e40dbbff9e247eaa",
+        "type": "calculator",
+        "z": "723a850f03705f70",
+        "g": "d59bc94e3bf5ac98",
+        "name": "",
+        "inputMsgField": "payload",
+        "outputMsgField": "payload",
+        "operation": "mult",
+        "constant": "1000",
+        "round": true,
+        "decimals": 0,
+        "x": 1405,
+        "y": 470,
+        "wires": [
+            [
+                "b48e7e9549e09cbd"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "44ad0d1694b2320b",
+        "type": "ui_level",
+        "z": "723a850f03705f70",
+        "g": "d59bc94e3bf5ac98",
+        "group": "ceb7a6a0520b3d7c",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "name": "CPU Load",
+        "label": "Load",
+        "colorHi": "#e60000",
+        "colorWarn": "#ff9900",
+        "colorNormal": "#00b33c",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "4",
+        "segWarn": "1",
+        "segHigh": "3",
+        "unit": "",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "2",
+        "animations": "soft",
+        "shape": "1",
+        "colorschema": "valuedriven",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "segments",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 1460,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "11e04ab5848925c1",
+        "type": "ui_level",
+        "z": "723a850f03705f70",
+        "g": "d59bc94e3bf5ac98",
+        "group": "ceb7a6a0520b3d7c",
+        "order": 5,
+        "width": 5,
+        "height": 1,
+        "name": "CPU Temp",
+        "label": "",
+        "colorHi": "#e60000",
+        "colorWarn": "#ff9900",
+        "colorNormal": "#00b33c",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "80",
+        "segWarn": "",
+        "segHigh": "",
+        "unit": "°",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "0",
+        "animations": "soft",
+        "shape": "1",
+        "colorschema": "valuedriven",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "segments",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 1460,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "9a597807131908e4",
+        "type": "ui_level",
+        "z": "723a850f03705f70",
+        "g": "d59bc94e3bf5ac98",
+        "group": "ceb7a6a0520b3d7c",
+        "order": 7,
+        "width": 5,
+        "height": 1,
+        "name": "CPU V",
+        "label": "",
+        "colorHi": "#e60000",
+        "colorWarn": "#ff9900",
+        "colorNormal": "#00c0c0",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "1.5",
+        "segWarn": "",
+        "segHigh": "",
+        "unit": "V",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "2",
+        "animations": "soft",
+        "shape": "1",
+        "colorschema": "fixed",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "segments",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 1440,
+        "y": 530,
+        "wires": []
+    },
+    {
+        "id": "b48e7e9549e09cbd",
+        "type": "ui_level",
+        "z": "723a850f03705f70",
+        "g": "d59bc94e3bf5ac98",
+        "group": "ceb7a6a0520b3d7c",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "name": "CPU Clock",
+        "label": "",
+        "colorHi": "#e60000",
+        "colorWarn": "#ff9900",
+        "colorNormal": "#00c0c0",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "1500",
+        "segWarn": "500",
+        "segHigh": "",
+        "unit": "MHz",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "0",
+        "animations": "soft",
+        "shape": "1",
+        "colorschema": "valuedriven",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "segments",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 1510,
+        "y": 470,
+        "wires": []
+    },
+    {
+        "id": "42e1fc378068a668",
+        "type": "ui_level",
+        "z": "723a850f03705f70",
+        "g": "d59bc94e3bf5ac98",
+        "group": "ceb7a6a0520b3d7c",
+        "order": 9,
+        "width": 5,
+        "height": 1,
+        "name": "Free Mem",
+        "label": "",
+        "colorHi": "#00c000",
+        "colorWarn": "#c0c000",
+        "colorNormal": "#c00000",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "4096",
+        "segWarn": "1024",
+        "segHigh": "2048",
+        "unit": "MB",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "0",
+        "animations": "soft",
+        "shape": "1",
+        "colorschema": "valuedriven",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "segments",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 1460,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "32a40b99881dd96c",
+        "type": "switch",
+        "z": "723a850f03705f70",
+        "g": "b308db3d72a1dec5",
+        "name": "etsMasPi3",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "/cpuLoad",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/cpuClock",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/cpuTemp",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/cpuVolts",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/freeMemory",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/diskRoot",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/throttleThrottled",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/throttleFrequency",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/throttleSoftTempLimit",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/throttleUndervolt",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 10,
+        "x": 1295,
+        "y": 940,
+        "wires": [
+            [
+                "513542dc0e86934c"
+            ],
+            [
+                "625e46bc64be7127"
+            ],
+            [
+                "d8c1eee878bee35a"
+            ],
+            [
+                "c1d2ec7df051254f"
+            ],
+            [
+                "3c3a07eaf15358eb"
+            ],
+            [
+                "321872d735333d7b"
+            ],
+            [
+                "d1ec74e9b8a034c9"
+            ],
+            [
+                "79078a6b4b496937"
+            ],
+            [
+                "0d29d7aa1a0ffa0b"
+            ],
+            [
+                "f90aca2e9628c0f9"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "321872d735333d7b",
+        "type": "ui_text",
+        "z": "723a850f03705f70",
+        "g": "b308db3d72a1dec5",
+        "group": "895e92788f84fcd0",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "<font size=1>Disk Root: </font>",
+        "format": "{{msg.payload|number:2}}",
+        "layout": "row-left",
+        "x": 1520,
+        "y": 950,
+        "wires": []
+    },
+    {
+        "id": "f90aca2e9628c0f9",
+        "type": "ui_led",
+        "z": "723a850f03705f70",
+        "g": "b308db3d72a1dec5",
+        "order": 10,
+        "group": "895e92788f84fcd0",
+        "width": 3,
+        "height": 1,
+        "label": "<font size=1>Undervoltage</font>",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Undervoltage Throttle",
+        "x": 1490,
+        "y": 1070,
+        "wires": []
+    },
+    {
+        "id": "79078a6b4b496937",
+        "type": "ui_led",
+        "z": "723a850f03705f70",
+        "g": "b308db3d72a1dec5",
+        "order": 6,
+        "group": "895e92788f84fcd0",
+        "width": 3,
+        "height": 1,
+        "label": "<font size=1>Frequency</font>",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Frequency Throttle",
+        "x": 1480,
+        "y": 1010,
+        "wires": []
+    },
+    {
+        "id": "d1ec74e9b8a034c9",
+        "type": "ui_led",
+        "z": "723a850f03705f70",
+        "g": "b308db3d72a1dec5",
+        "order": 4,
+        "group": "895e92788f84fcd0",
+        "width": 3,
+        "height": 1,
+        "label": "<font size=1>Throttled</font>",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Currently Throttled",
+        "x": 1480,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "0d29d7aa1a0ffa0b",
+        "type": "ui_led",
+        "z": "723a850f03705f70",
+        "g": "b308db3d72a1dec5",
+        "order": 8,
+        "group": "895e92788f84fcd0",
+        "width": 3,
+        "height": 1,
+        "label": "<font size=1>Soft Temp Limit</font>",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "SoftTempLimit Throttle",
+        "x": 1490,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "625e46bc64be7127",
+        "type": "calculator",
+        "z": "723a850f03705f70",
+        "g": "b308db3d72a1dec5",
+        "name": "",
+        "inputMsgField": "payload",
+        "outputMsgField": "payload",
+        "operation": "mult",
+        "constant": "1000",
+        "round": true,
+        "decimals": 0,
+        "x": 1405,
+        "y": 830,
+        "wires": [
+            [
+                "82b2ba739e30624e"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "513542dc0e86934c",
+        "type": "ui_level",
+        "z": "723a850f03705f70",
+        "g": "b308db3d72a1dec5",
+        "group": "895e92788f84fcd0",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "name": "CPU Load",
+        "label": "Load",
+        "colorHi": "#e60000",
+        "colorWarn": "#ff9900",
+        "colorNormal": "#00b33c",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "4",
+        "segWarn": "1",
+        "segHigh": "3",
+        "unit": "",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "2",
+        "animations": "soft",
+        "shape": "1",
+        "colorschema": "valuedriven",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "segments",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 1460,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "d8c1eee878bee35a",
+        "type": "ui_level",
+        "z": "723a850f03705f70",
+        "g": "b308db3d72a1dec5",
+        "group": "895e92788f84fcd0",
+        "order": 5,
+        "width": 5,
+        "height": 1,
+        "name": "CPU Temp",
+        "label": "",
+        "colorHi": "#e60000",
+        "colorWarn": "#ff9900",
+        "colorNormal": "#00b33c",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "80",
+        "segWarn": "",
+        "segHigh": "",
+        "unit": "°",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "0",
+        "animations": "soft",
+        "shape": "1",
+        "colorschema": "valuedriven",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "segments",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 1460,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "c1d2ec7df051254f",
+        "type": "ui_level",
+        "z": "723a850f03705f70",
+        "g": "b308db3d72a1dec5",
+        "group": "895e92788f84fcd0",
+        "order": 7,
+        "width": 5,
+        "height": 1,
+        "name": "CPU V",
+        "label": "",
+        "colorHi": "#e60000",
+        "colorWarn": "#ff9900",
+        "colorNormal": "#00c0c0",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "1.5",
+        "segWarn": "",
+        "segHigh": "",
+        "unit": "V",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "2",
+        "animations": "soft",
+        "shape": "1",
+        "colorschema": "valuedriven",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "segments",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 1440,
+        "y": 890,
+        "wires": []
+    },
+    {
+        "id": "82b2ba739e30624e",
+        "type": "ui_level",
+        "z": "723a850f03705f70",
+        "g": "b308db3d72a1dec5",
+        "group": "895e92788f84fcd0",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "name": "CPU Clock",
+        "label": "",
+        "colorHi": "#e60000",
+        "colorWarn": "#ff9900",
+        "colorNormal": "#00c0c0",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "1500",
+        "segWarn": "500",
+        "segHigh": "",
+        "unit": "MHz",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "0",
+        "animations": "soft",
+        "shape": "1",
+        "colorschema": "valuedriven",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "segments",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 1510,
+        "y": 830,
+        "wires": []
+    },
+    {
+        "id": "3c3a07eaf15358eb",
+        "type": "ui_level",
+        "z": "723a850f03705f70",
+        "g": "b308db3d72a1dec5",
+        "group": "895e92788f84fcd0",
+        "order": 9,
+        "width": 5,
+        "height": 1,
+        "name": "Free Mem",
+        "label": "",
+        "colorHi": "#00c000",
+        "colorWarn": "#c0c000",
+        "colorNormal": "#c00000",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "4096",
+        "segWarn": "1024",
+        "segHigh": "2048",
+        "unit": "MB",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "0",
+        "animations": "soft",
+        "shape": "1",
+        "colorschema": "valuedriven",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "segments",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 1460,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "97f2b6682432315e",
+        "type": "switch",
+        "z": "723a850f03705f70",
+        "g": "47bb59d0217f042b",
+        "name": "etsMasPi4",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "/cpuLoad",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/cpuClock",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/cpuTemp",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/cpuVolts",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/freeMemory",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/diskRoot",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/throttleThrottled",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/throttleFrequency",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/throttleSoftTempLimit",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/throttleUndervolt",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 10,
+        "x": 1295,
+        "y": 1300,
+        "wires": [
+            [
+                "4f01731ef6f06b05"
+            ],
+            [
+                "ed9439567d528ae9"
+            ],
+            [
+                "52d156fe04c785c9"
+            ],
+            [
+                "821ac293bb4424b4"
+            ],
+            [
+                "5ee626d4286deb5c"
+            ],
+            [
+                "7af8a8f5572f3a18"
+            ],
+            [
+                "4db0a2be4ad8e6f6"
+            ],
+            [
+                "25d2edc972b16acd"
+            ],
+            [
+                "1e0ef90cd9c871b2"
+            ],
+            [
+                "bb11da1bb81e0e16"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "7af8a8f5572f3a18",
+        "type": "ui_text",
+        "z": "723a850f03705f70",
+        "g": "47bb59d0217f042b",
+        "group": "e95eb65f4f9ef5b8",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "<font size=1>Disk Root: </font>",
+        "format": "{{msg.payload|number:2}}",
+        "layout": "row-left",
+        "x": 1520,
+        "y": 1310,
+        "wires": []
+    },
+    {
+        "id": "bb11da1bb81e0e16",
+        "type": "ui_led",
+        "z": "723a850f03705f70",
+        "g": "47bb59d0217f042b",
+        "order": 10,
+        "group": "e95eb65f4f9ef5b8",
+        "width": 3,
+        "height": 1,
+        "label": "<font size=1>Undervoltage</font>",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Undervoltage Throttle",
+        "x": 1490,
+        "y": 1430,
+        "wires": []
+    },
+    {
+        "id": "25d2edc972b16acd",
+        "type": "ui_led",
+        "z": "723a850f03705f70",
+        "g": "47bb59d0217f042b",
+        "order": 6,
+        "group": "e95eb65f4f9ef5b8",
+        "width": 3,
+        "height": 1,
+        "label": "<font size=1>Frequency</font>",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Frequency Throttle",
+        "x": 1480,
+        "y": 1370,
+        "wires": []
+    },
+    {
+        "id": "4db0a2be4ad8e6f6",
+        "type": "ui_led",
+        "z": "723a850f03705f70",
+        "g": "47bb59d0217f042b",
+        "order": 4,
+        "group": "e95eb65f4f9ef5b8",
+        "width": 3,
+        "height": 1,
+        "label": "<font size=1>Throttled</font>",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Currently Throttled",
+        "x": 1480,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "1e0ef90cd9c871b2",
+        "type": "ui_led",
+        "z": "723a850f03705f70",
+        "g": "47bb59d0217f042b",
+        "order": 8,
+        "group": "e95eb65f4f9ef5b8",
+        "width": 3,
+        "height": 1,
+        "label": "<font size=1>Soft Temp Limit</font>",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "SoftTempLimit Throttle",
+        "x": 1490,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "ed9439567d528ae9",
+        "type": "calculator",
+        "z": "723a850f03705f70",
+        "g": "47bb59d0217f042b",
+        "name": "",
+        "inputMsgField": "payload",
+        "outputMsgField": "payload",
+        "operation": "mult",
+        "constant": "1000",
+        "round": true,
+        "decimals": 0,
+        "x": 1405,
+        "y": 1190,
+        "wires": [
+            [
+                "d5e634f71d21770a"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "4f01731ef6f06b05",
+        "type": "ui_level",
+        "z": "723a850f03705f70",
+        "g": "47bb59d0217f042b",
+        "group": "e95eb65f4f9ef5b8",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "name": "CPU Load",
+        "label": "Load",
+        "colorHi": "#e60000",
+        "colorWarn": "#ff9900",
+        "colorNormal": "#00b33c",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "4",
+        "segWarn": "1",
+        "segHigh": "3",
+        "unit": "",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "2",
+        "animations": "soft",
+        "shape": "1",
+        "colorschema": "valuedriven",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "segments",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 1460,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "52d156fe04c785c9",
+        "type": "ui_level",
+        "z": "723a850f03705f70",
+        "g": "47bb59d0217f042b",
+        "group": "e95eb65f4f9ef5b8",
+        "order": 5,
+        "width": 5,
+        "height": 1,
+        "name": "CPU Temp",
+        "label": "",
+        "colorHi": "#e60000",
+        "colorWarn": "#ff9900",
+        "colorNormal": "#00b33c",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "80",
+        "segWarn": "",
+        "segHigh": "",
+        "unit": "°",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "0",
+        "animations": "soft",
+        "shape": "1",
+        "colorschema": "valuedriven",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "segments",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 1460,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "d5e634f71d21770a",
+        "type": "ui_level",
+        "z": "723a850f03705f70",
+        "g": "47bb59d0217f042b",
+        "group": "e95eb65f4f9ef5b8",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "name": "CPU Clock",
+        "label": "",
+        "colorHi": "#e60000",
+        "colorWarn": "#ff9900",
+        "colorNormal": "#00c0c0",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "1500",
+        "segWarn": "500",
+        "segHigh": "",
+        "unit": "MHz",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "0",
+        "animations": "soft",
+        "shape": "1",
+        "colorschema": "valuedriven",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "segments",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 1510,
+        "y": 1190,
+        "wires": []
+    },
+    {
+        "id": "821ac293bb4424b4",
+        "type": "ui_level",
+        "z": "723a850f03705f70",
+        "g": "47bb59d0217f042b",
+        "group": "e95eb65f4f9ef5b8",
+        "order": 7,
+        "width": 5,
+        "height": 1,
+        "name": "CPU V",
+        "label": "",
+        "colorHi": "#e60000",
+        "colorWarn": "#ff9900",
+        "colorNormal": "#00c0c0",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "1.5",
+        "segWarn": "",
+        "segHigh": "",
+        "unit": "V",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "2",
+        "animations": "soft",
+        "shape": "1",
+        "colorschema": "valuedriven",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "segments",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 1440,
+        "y": 1250,
+        "wires": []
+    },
+    {
+        "id": "5ee626d4286deb5c",
+        "type": "ui_level",
+        "z": "723a850f03705f70",
+        "g": "47bb59d0217f042b",
+        "group": "e95eb65f4f9ef5b8",
+        "order": 9,
+        "width": 5,
+        "height": 1,
+        "name": "Free Mem",
+        "label": "",
+        "colorHi": "#00c000",
+        "colorWarn": "#c0c000",
+        "colorNormal": "#c00000",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "4096",
+        "segWarn": "1024",
+        "segHigh": "2048",
+        "unit": "MB",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "0",
+        "animations": "soft",
+        "shape": "1",
+        "colorschema": "valuedriven",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "segments",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 1460,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "5b50437cb9a4ad8a",
+        "type": "link out",
+        "z": "723a850f03705f70",
+        "g": "13cba7e2abe41be3",
+        "name": "Pi1 Out",
+        "mode": "link",
+        "links": [
+            "3de2e218491cca39"
+        ],
+        "x": 805,
+        "y": 110,
+        "wires": []
+    },
+    {
+        "id": "3de2e218491cca39",
+        "type": "link in",
+        "z": "723a850f03705f70",
+        "g": "bc7cc220.f4fad",
+        "name": "Pi1 In",
+        "links": [
+            "5b50437cb9a4ad8a"
+        ],
+        "x": 1245,
+        "y": 220,
+        "wires": [
+            [
+                "7497921e.79fa2c"
+            ]
+        ]
+    },
+    {
+        "id": "4bcf02faf7a54fe1",
+        "type": "link out",
+        "z": "723a850f03705f70",
+        "g": "13cba7e2abe41be3",
+        "name": "Pi2 Out",
+        "mode": "link",
+        "links": [
+            "12d1519b46dcf437"
+        ],
+        "x": 805,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "1392182e12b47913",
+        "type": "link out",
+        "z": "723a850f03705f70",
+        "g": "13cba7e2abe41be3",
+        "name": "Pi3 Out",
+        "mode": "link",
+        "links": [
+            "08525443ce5a87fc"
+        ],
+        "x": 805,
+        "y": 170,
+        "wires": []
+    },
+    {
+        "id": "89a7f7ab2717e15c",
+        "type": "link out",
+        "z": "723a850f03705f70",
+        "g": "13cba7e2abe41be3",
+        "name": "Pi4 Out",
+        "mode": "link",
+        "links": [
+            "8531b0fefc308360"
+        ],
+        "x": 805,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "12d1519b46dcf437",
+        "type": "link in",
+        "z": "723a850f03705f70",
+        "g": "d59bc94e3bf5ac98",
+        "name": "Pi2 In",
+        "links": [
+            "4bcf02faf7a54fe1"
+        ],
+        "x": 1245,
+        "y": 570,
+        "wires": [
+            [
+                "ee593aae1a3a8e92"
+            ]
+        ]
+    },
+    {
+        "id": "08525443ce5a87fc",
+        "type": "link in",
+        "z": "723a850f03705f70",
+        "g": "b308db3d72a1dec5",
+        "name": "Pi3 In",
+        "links": [
+            "1392182e12b47913"
+        ],
+        "x": 1245,
+        "y": 940,
+        "wires": [
+            [
+                "32a40b99881dd96c"
+            ]
+        ]
+    },
+    {
+        "id": "8531b0fefc308360",
+        "type": "link in",
+        "z": "723a850f03705f70",
+        "g": "47bb59d0217f042b",
+        "name": "Pi4 In",
+        "links": [
+            "89a7f7ab2717e15c"
+        ],
+        "x": 1245,
+        "y": 1300,
+        "wires": [
+            [
+                "97f2b6682432315e"
+            ]
+        ]
+    },
+    {
+        "id": "ee132bd77b2a94a7",
+        "type": "change",
+        "z": "723a850f03705f70",
+        "g": "03810b4592173062",
+        "name": "Icon",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "mayflower",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "icon",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 160,
+        "y": 520,
+        "wires": [
+            [
+                "5a2629061bfccb0f"
+            ]
+        ]
+    },
+    {
+        "id": "7de3ed55f7339121",
+        "type": "change",
+        "z": "723a850f03705f70",
+        "g": "73e96092dd657934",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "mayflower",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "icon",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 205,
+        "y": 2090,
+        "wires": [
+            [
+                "4cf50a94dc15150b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "6f7e81b6279bfddd",
+        "type": "change",
+        "z": "723a850f03705f70",
+        "g": "03810b4592173062",
+        "name": "Heading",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number(payload.shipHeadingDeg)",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "heading",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 170,
+        "y": 550,
+        "wires": [
+            [
+                "5a2629061bfccb0f"
+            ]
+        ]
+    },
+    {
+        "id": "ce923d5eafa56ad4",
+        "type": "countdown",
+        "z": "723a850f03705f70",
+        "g": "7a7552ad08f425dd",
+        "name": "",
+        "topic": "",
+        "payloadTimerStart": "true",
+        "payloadTimerStartType": "bool",
+        "payloadTimerStop": "false",
+        "payloadTimerStopType": "bool",
+        "timer": "60",
+        "resetWhileRunning": true,
+        "setTimeToNewWhileRunning": false,
+        "startCountdownOnControlMessage": false,
+        "minuteCounter": false,
+        "x": 420,
+        "y": 1610,
+        "wires": [
+            [],
+            [
+                "3dc116664fcd8dfa"
+            ]
+        ]
+    },
+    {
+        "id": "3dc116664fcd8dfa",
+        "type": "ui_artlessgauge",
+        "z": "723a850f03705f70",
+        "g": "7a7552ad08f425dd",
+        "group": "be0e67b7.090858",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "MQTT Expectation",
+        "icon": "",
+        "label": "MQTT Expectation",
+        "unit": "Seconds",
+        "layout": "linear",
+        "decimals": 0,
+        "differential": false,
+        "minmax": false,
+        "colorTrack": "#555555",
+        "style": "2,2",
+        "colorFromTheme": true,
+        "property": "payload",
+        "secondary": "secondary",
+        "inline": true,
+        "animate": false,
+        "sectors": [
+            {
+                "val": 0,
+                "col": "#ff9900",
+                "t": "min",
+                "dot": 0
+            },
+            {
+                "val": 60,
+                "col": "#ff9900",
+                "t": "max",
+                "dot": 0
+            }
+        ],
+        "lineWidth": "7",
+        "bgcolorFromTheme": true,
+        "diffCenter": "",
+        "x": 630,
+        "y": 1610,
+        "wires": []
+    },
+    {
+        "id": "6a15d91f5d144c03",
+        "type": "comment",
+        "z": "723a850f03705f70",
+        "g": "13cba7e2abe41be3",
+        "name": "MQTT Feeds Group",
+        "info": "**Discrete topic subscriptions and feed processing links.**  \nThis hierarchy might be \"overboard\" on some level I'm not aware of, but it helps me better track message sources against intended routing.",
+        "x": 130,
+        "y": 50,
+        "wires": []
+    },
+    {
+        "id": "67b8d6f883b73d69",
+        "type": "comment",
+        "z": "723a850f03705f70",
+        "g": "03810b4592173062",
+        "name": "Multimedia Group",
+        "info": "### **Custom Dashboard CSS**  \nA kludge originally from somewhere on the Internet, this code was chosen to study the effects of CSS on UI element colorization.  \n\n### **Camera Select**\nThese camera datum have been in this code since very early spring of 2021, and has undergone some naming and function changes since that time.  \n\nBow Camera:  \n`<iframe width=\"480\" height=\"270\" src=\"https://www.ustream.tv/embed/24088054\" scrolling=\"no\" allowfullscreen webkitallowfullscreen frameborder=\"0\" style=\"border: 0 none transparent;\"></iframe>`\n\nStern Camera:  \n`<iframe width=\"480\" height=\"270\" src=\"https://www.ustream.tv/embed/24088055\" scrolling=\"no\" allowfullscreen webkitallowfullscreen frameborder=\"0\" style=\"border: 0 none transparent;\"></iframe>`\n\nPort Camera:  \n`<iframe width=\"480\" height=\"270\" src=\"https://www.ustream.tv/embed/24088056\" scrolling=\"no\" allowfullscreen webkitallowfullscreen frameborder=\"0\" style=\"border: 0 none transparent;\"></iframe>`\n\nStarboard Camera:  \n`<iframe width=\"480\" height=\"270\" src=\"https://www.ustream.tv/embed/24088057\" scrolling=\"no\" allowfullscreen webkitallowfullscreen frameborder=\"0\" style=\"border: 0 none transparent;\"></iframe>`\n\nMultiview Cameras:  \n`<iframe width=\"480\" height=\"270\" src=\"https://www.ustream.tv/embed/24088058\" scrolling=\"no\" allowfullscreen webkitallowfullscreen frameborder=\"0\" style=\"border: 0 none transparent;\"></iframe>`\n\n### **Camera Viewport**  \nJust one solution for getting video embedded into the Node-RED dashboard.\n`<iframe width=\"480\" height=\"270\" src=\"https://www.ustream.tv/embed/24088054\" scrolling=\"no\" allowfullscreen webkitallowfullscreen frameborder=\"0\" style=\"border: 0 none transparent;\"></iframe>`\n\n### **Embedded Map**  \nJust one solution for getting a map embedded into the Node-RED dashboard.\n`<div ng-bind-html=\"msg.payload | trusted\"></div>`\n\nIt is based on the settings from the worldmap node:\n`<iframe src=\"../worldmap\" width=480px height=270px ></iframe>`\n\nThe worldmap node takes advantage of five parameters: Latitude, Longitude, Name, Heading and Icon.\n\n### **Annotation**\nAnnotation is based on an image database to reveal interpretations from AIS.",
+        "x": 130,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "81385f5602613f28",
+        "type": "comment",
+        "z": "723a850f03705f70",
+        "g": "b5598464a148aa0e",
+        "name": "Meteorology Group",
+        "info": "**Meteorological Aspects**  \nAt least, that how these feel to me to be.\n\n## Weather / Weather Phrase  \nHumanesque phrasing of local sky conditions.\n\n## Wind Temp / Speed / Direction  \nTypical local atmospheric measurements.",
+        "x": 730,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "76f5e7df9d8d7f79",
+        "type": "comment",
+        "z": "723a850f03705f70",
+        "g": "a1fbbb2c794ac7c2",
+        "name": "Condition Group",
+        "info": "**Things related to overall operational configuration, I suppose?**\n\n### Connectivity  \nAt-a-glance indicator of data stream activity.\n\n### UTC  \nA time stamp of the latest MQTT data.\n\n### Operational Status  \nOne of these mutually-exclusive modes: Autonomous, Standby, Active, Startup or Remote.",
+        "x": 120,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "c3dd222cdd304a9f",
+        "type": "comment",
+        "z": "723a850f03705f70",
+        "g": "f0f6caf54c075a94",
+        "name": "Navigation Group",
+        "info": "Typical situational telemetry more than anything else, with conversions.\n\nThe depth gauge is a three-part system, having a decade-ish interpretation such that the deeper the reading, the less gauges are visible.",
+        "x": 600,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "807c843f34b1a360",
+        "type": "mqtt in",
+        "z": "723a850f03705f70",
+        "g": "13cba7e2abe41be3",
+        "name": "Sensors",
+        "topic": "sensors",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "f12e74aa.501eb8",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 560,
+        "y": 90,
+        "wires": [
+            [
+                "53d437214e83d301"
+            ]
+        ]
+    },
+    {
+        "id": "53d437214e83d301",
+        "type": "link out",
+        "z": "723a850f03705f70",
+        "g": "13cba7e2abe41be3",
+        "name": "Sensors out",
+        "mode": "link",
+        "links": [],
+        "x": 655,
+        "y": 90,
+        "wires": []
+    },
+    {
+        "id": "6674a90713d046b4",
+        "type": "mqtt in",
+        "z": "723a850f03705f70",
+        "g": "13cba7e2abe41be3",
+        "name": "Microphone",
+        "topic": "microphone",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "f12e74aa.501eb8",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 570,
+        "y": 40,
+        "wires": [
+            [
+                "9a0727c680e2cd0b"
+            ]
+        ]
+    },
+    {
+        "id": "9a0727c680e2cd0b",
+        "type": "link out",
+        "z": "723a850f03705f70",
+        "g": "13cba7e2abe41be3",
+        "name": "Microphone out",
+        "mode": "link",
+        "links": [],
+        "x": 675,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "ef9fc242d0137622",
+        "type": "ui_spacer",
+        "z": "723a850f03705f70",
+        "name": "spacer",
+        "group": "2ad9686.f1b5d98",
+        "order": 8,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "b6ae38b5b94a7f8d",
+        "type": "ui_spacer",
+        "z": "723a850f03705f70",
+        "name": "spacer",
+        "group": "2ad9686.f1b5d98",
+        "order": 10,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "7ad686d90e2d39bd",
+        "type": "ui_spacer",
+        "z": "723a850f03705f70",
+        "name": "spacer",
+        "group": "2ad9686.f1b5d98",
+        "order": 11,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "89290a951b6e2813",
+        "type": "ui_spacer",
+        "z": "723a850f03705f70",
+        "name": "spacer",
+        "group": "2ad9686.f1b5d98",
+        "order": 12,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "32efc7efa2f9e820",
+        "type": "ui_spacer",
+        "z": "723a850f03705f70",
+        "name": "spacer",
+        "group": "de058a5b.7c6868",
+        "order": 4,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "cce7e7ad5daed4df",
+        "type": "ui_spacer",
+        "z": "723a850f03705f70",
+        "name": "spacer",
+        "group": "de058a5b.7c6868",
+        "order": 7,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "64a2d20ad25aaf08",
+        "type": "ui_spacer",
+        "z": "723a850f03705f70",
+        "name": "spacer",
+        "group": "de058a5b.7c6868",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d54d543421225088",
+        "type": "ui_spacer",
+        "z": "723a850f03705f70",
+        "name": "spacer",
+        "group": "de058a5b.7c6868",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "04e1376067b053eb",
+        "type": "ui_spacer",
+        "z": "723a850f03705f70",
+        "name": "spacer",
+        "group": "de058a5b.7c6868",
+        "order": 14,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "10f75e70d006d64a",
+        "type": "ui_spacer",
+        "z": "723a850f03705f70",
+        "name": "spacer",
+        "group": "de058a5b.7c6868",
+        "order": 15,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "1ae86b42.0ff1c5",
+        "type": "ui_group",
+        "name": "Multimedia",
+        "tab": "70f2c40b.c48e2c",
+        "order": 1,
+        "disp": false,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2ad9686.f1b5d98",
+        "type": "ui_group",
+        "name": "Navigation",
+        "tab": "70f2c40b.c48e2c",
+        "order": 3,
+        "disp": false,
+        "width": 13,
+        "collapse": false
+    },
+    {
+        "id": "be0e67b7.090858",
+        "type": "ui_group",
+        "name": "Condition",
+        "tab": "70f2c40b.c48e2c",
+        "order": 2,
+        "disp": false,
+        "width": 13,
+        "collapse": false
+    },
+    {
+        "id": "de058a5b.7c6868",
+        "type": "ui_group",
+        "name": "AIS",
+        "tab": "70f2c40b.c48e2c",
+        "order": 5,
+        "disp": false,
+        "width": 13,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "aaeb5aa1.5944c8",
+        "type": "mqtt-broker",
+        "name": "MAS400",
+        "broker": "mqtt.mas400.com",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "589377387ab13f0a",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.1.101",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "f12e74aa.501eb8",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "mqtt.mas400.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "36c395bf.7895fa",
+        "type": "ui_group",
+        "name": "RPi1",
+        "tab": "255e1f38.ed7ac",
+        "order": 1,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ceb7a6a0520b3d7c",
+        "type": "ui_group",
+        "name": "RPi2",
+        "tab": "255e1f38.ed7ac",
+        "order": 2,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "895e92788f84fcd0",
+        "type": "ui_group",
+        "name": "RPi3",
+        "tab": "255e1f38.ed7ac",
+        "order": 3,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e95eb65f4f9ef5b8",
+        "type": "ui_group",
+        "name": "RPi4",
+        "tab": "255e1f38.ed7ac",
+        "order": 4,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "70f2c40b.c48e2c",
+        "type": "ui_tab",
+        "name": "Para-ECDIS",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "255e1f38.ed7ac",
+        "type": "ui_tab",
+        "name": "Science Pod",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    }
+]
